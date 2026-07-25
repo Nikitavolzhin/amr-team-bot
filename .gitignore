@@ -1,0 +1,12 @@
+build/
+install/
+log/
+
+src/Robile/
+src/robile_description/
+src/robile_gazebo/
+src/robile_interfaces/
+src/robile_navigation/
+
+__pycache__/
+*.pyc
