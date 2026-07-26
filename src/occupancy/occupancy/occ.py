@@ -15,7 +15,7 @@ import numpy as np
 class Potential(Node):
     def __init__(self):
         super().__init__('potential_node')
-        self.map_publisher = self.create_publisher(OccupancyGrid, '/map', 10)
+        # self.map_publisher = self.create_publisher(OccupancyGrid, '/map', 10)
         self.width = 20
         self.height = 20
         self.resolution = 0.1
@@ -77,16 +77,16 @@ class Potential(Node):
             self.listener_callback,
             10
         )
-        '''
+
         self.publisher = self.create_publisher(
             Twist,
             '/cmd_vel',
             10
         )
-        '''
+
         time_period = 0.5
-        #self.timer = self.create_timer(time_period, self.timer_callback)
-        self.timer = self.create_timer(time_period, self.create_map)
+        self.timer = self.create_timer(time_period, self.timer_callback)
+        #self.timer = self.create_timer(time_period, self.create_map)
 
         self.i = 0
 
