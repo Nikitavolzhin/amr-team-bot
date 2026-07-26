@@ -5,9 +5,9 @@ from tf_transformations import euler_from_quaternion
 from geometry_msgs.msg import Twist
 from sensor_msgs.msg import LaserScan
 from tf2_msgs.msg import TFMessage
-from nav_msgs.msg import Odometry
+from nav_msgs.msg import Odometry, Path
 import numpy as np
-
+from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy
 #NB: maually from terminal we obtained the following
 # frame_id: base_link
 # child_frame_id: base_laser_front_link
@@ -19,12 +19,41 @@ import numpy as np
 class Potential(Node):
     def __init__(self):
         super().__init__('potential_node')
-        self.k_a = 1.6 #to be tuned manually
-        self.k_r = -0.032 #-//-
-        self.ro = 1.5
+        path_qos = QoSProfile(
+            depth=1,
+            reliability=ReliabilityPolicy.RELIABLE,
+            durability=DurabilityPolicy.TRANSIENT_LOCAL
+        )
+
+        self.path_subscription = self.create_subscription(
+            Path,
+            '/wavefront_path',
+            self.path_reader,
+            path_qos
+        )
+        self.cart_data = None
+        self.path = None
+        self.buffer = 0.8
+        self.k_a = 1.3 #to be tuned manually
+        self.k_r = -0.005 #-//-
+        self.ro = 3.0
         self.x = 0.0
         self.y = 0.0
-        self.goal = np.array([4.0, 10.0])
+        self.current_goal = 0
+        '''
+        self.goals = [np.array([2.0, -2.0]),
+                      np.array([3.0, -1.0]),
+                      np.array([5.0, -2.0]),
+                      np.array([6.0, -4.0]),
+                      np.array([5.0, -2.0]),
+                      # np.array([6.0, -2.0]),
+                      np.array([3.0, -1.0]),
+                      np.array([3.0, 1.0]),
+                      np.array([4.0, 1.5]),
+                      np.array([0.0, 1.0]),
+                      np.array([0.0, 0.0]),
+                      ]
+        '''
         self.goal_orientation = -1.0
         self.angle = 0.0
         self.subscriber_odom = self.create_subscription(
@@ -55,9 +84,10 @@ class Potential(Node):
             [np.cos(self.angle), np.sin(self.angle)],
             [-np.sin(self.angle), np.cos(self.angle)]
         ])
-        v = R @ (np.array([self.x, self.y]) - self.goal)
+        v = R @ (np.array([self.x, self.y]) - self.path[self.current_goal])
         v = -self.k_a * v/np.linalg.norm(v)
-
+        if self.cart_data is None:
+            return
         for i in self.cart_data:
             denom = np.linalg.norm(i)
             if denom != 0 and denom < self.ro:
@@ -68,16 +98,29 @@ class Potential(Node):
 
         msg.angular.z = self.normalize_angle(angle_to_goal)
         msg.linear.x = v[0]
-        if np.linalg.norm(np.array([self.x, self.y]) - self.goal) < 0.8:
+        if np.linalg.norm(np.array([self.x, self.y]) - self.path[self.current_goal]) < self.buffer:
             msg.linear.x = 0.0
-            if abs(self.angle - self.goal_orientation) > 0.15:
-                self.get_logger().info(f"Changing orientation")
-                msg.angular.z = self.goal_orientation - self.angle
-            else:
-                msg.angular.z = 0.0
-                self.get_logger().info(f"DONE!")
+            #if abs(self.angle - self.goal_orientation) > 0.15:
+            #    self.get_logger().info(f"Changing orientation")
+            #    msg.angular.z = self.goal_orientation - self.angle
+            #else:
+            msg.angular.z = 0.0
+            self.get_logger().info(f"goal achieved! Current position: {self.x, self.y}; Goal: {self.path[self.current_goal]}")
+            if len(self.path)-1 > self.current_goal:
+                self.current_goal+=1
         self.publisher.publish(msg)
-
+    
+    def path_reader(self, msg):
+        self.path = list()
+        for pose in msg.poses:
+            self.path.append([pose.pose.position.x, pose.pose.position.y])
+        if not self.path:
+            self.get_logger().warning('Received an empty path')
+            return
+        self.get_logger().info(
+            f'Received path: {self.path}'
+        )
+        
     def odom_data_reader(self, msg):
         self.x = msg.pose.pose.position.x
         self.y = msg.pose.pose.position.y

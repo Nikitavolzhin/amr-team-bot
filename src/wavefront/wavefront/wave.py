@@ -54,10 +54,16 @@ class Wave(Node):
              self.planning
         )
 
+        path_qos = QoSProfile(
+            depth=1,
+            reliability=ReliabilityPolicy.RELIABLE,
+            durability=DurabilityPolicy.TRANSIENT_LOCAL
+        )
+
         self.path_publisher = self.create_publisher(
             Path,
             '/wavefront_path',
-            10
+            path_qos
         )
         
     def map_reader(self, msg):
@@ -136,7 +142,7 @@ class Wave(Node):
                 elif current[1] - 1 > -1 and self.wave_map[current[0]][current[1] - 1] == current_value - 1:
                     path.append([current[0], current[1] - 1])
 
-            self.path_idx = path[::-20]
+            self.path_idx = path[::-10]
             self.path = list()
             for i in range(len(self.path_idx)):
                 self.path.append(self.to_coordinate(self.path_idx[i][0], self.path_idx[i][1]))
