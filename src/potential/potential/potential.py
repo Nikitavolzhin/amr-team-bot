@@ -33,10 +33,10 @@ class Potential(Node):
         )
         self.cart_data = None
         self.path = None
-        self.buffer = 0.8
-        self.k_a = 1.3 #to be tuned manually
-        self.k_r = -0.005 #-//-
-        self.ro = 3.0
+        self.buffer = 0.6
+        self.k_a = 1.3 #1.3
+        self.k_r = -0.008 #-0.005
+        self.ro = 3.0 # 3.0
         self.x = 0.0
         self.y = 0.0
         self.current_goal = 0

@@ -77,6 +77,22 @@ class Wave(Node):
 
         self.wave_map = self.wave_map = np.full((self.height, self.width), -1, dtype=np.int32)
 
+        # increase borders by one grid-cell
+        for _ in range(5):
+            delta_map = np.full((self.height, self.width), 0, dtype=np.int32)
+
+            for i in range(self.height):
+                for j in range(self.width):
+                    if self.map[i][j] == 100:
+                        if j+1 < self.width and self.map[i][j+1] == 0:
+                            delta_map[i][j + 1] = 100
+                        if j-1 > -1 and self.map[i][j-1] == 0:
+                            delta_map[i][j - 1] = 100
+                        if i+1 < self.height and self.map[i+1][j] == 0:
+                            delta_map[i+1][j] = 100
+                        if i-1 > -1 and self.map[i-1][j] == 0:
+                            delta_map[i-1][j] = 100
+            self.map += delta_map
 
     def planning(self):
         if self.map is None:
