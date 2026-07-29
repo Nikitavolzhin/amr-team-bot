@@ -1,65 +1,40 @@
 import rclpy
-from geometry_msgs.msg import PoseWithCovarianceStamped
 from rclpy.node import Node
+from nav_msgs.msg import Odometry
 
 
-class ParticleFilterNode(Node):
+class test_particle_filter(Node):
     
 
     def __init__(self) -> None:
-        super().__init__("particle_filter_localization")
-
-        self.pose_publisher = self.create_publisher(
-            PoseWithCovarianceStamped,
-            "/estimated_pose",
-            10,
-        )
-
- 
-        self.timer = self.create_timer(
-            1.0,
-            self.publish_test_pose,
-        )
-
-        self.get_logger().info(
-            "Particle filter localization node started- ALLES GUT (NICHT KAPUT xd)"
-        )
-
-    def publish_test_pose(self) -> None:
-       
-        message = PoseWithCovarianceStamped()
-        message.header.stamp = self.get_clock().now().to_msg()
-
-        message.header.frame_id = "odom"
-        # Fixed position - ; for testing
-        message.pose.pose.position.x = 0.0
-        message.pose.pose.position.y = 0.0
-        message.pose.pose.position.z = 0.0
-        
-        message.pose.pose.orientation.x = 0.0
-        message.pose.pose.orientation.y = 0.0
-        message.pose.pose.orientation.z = 0.0
-        message.pose.pose.orientation.w = 1.0
-
-        self.pose_publisher.publish(message)
+        super().__init__("testing_particle_filter")
 
 
-def main(args=None) -> None:
-    """Initialize ROS 2 and run the node."""
+        self.odom_sub = self.create_subscription(Odometry, "/odom", self.odom_call, 10,)
+
+        self.get_logger().info("NODE HAS STARTED ALLES GUT (NICHT KAPUT SO FAR :) )")
+
+    def odom_call(self, msg: Odometry) -> None:
+        self.position_of_x = msg.pose.pose.position.x
+        self.position_of_y = msg.pose.pose.position.y
+
+        self.get_logger().info(f"CURRENT POSITION -> : x={self.position_of_x:.3f}, y={self.position_of_y:.3f}")
+   
+
+
+def main(args=None):
     rclpy.init(args=args)
 
-    node = ParticleFilterNode()
+    node = test_particle_filter()
 
-    try:
-        rclpy.spin(node)
-    except KeyboardInterrupt:
-        pass
-    finally:
-        node.destroy_node()
+    
+    rclpy.spin(node)
 
-        if rclpy.ok():
-            rclpy.shutdown()
+    node.destroy_node()
 
 
-if __name__ == "__main__":
+    rclpy.shutdown()
+
+#GGWP :3
+if __name__ == '__main__':
     main()
