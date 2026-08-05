@@ -32,7 +32,12 @@ setup(
         "console_scripts": [
             (
                 "particle_filter_node = "
-                "amr_localization.particle_filter_node:main"
+                "amr_localization.particle_filter_node:main",
+                "gg = amr_localization.gg:main",
+                "lo = amr_localization.lo:main",
+
+
+                
             ),
         ],
     },
