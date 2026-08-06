@@ -47,10 +47,10 @@ class particle_filter(Node):
     def __init__(self):
         super().__init__("particle_filter_node")
 
-        self.number_of_particles = 10  # can be tunes later
+        self.number_of_particles = 20  # can be tunes later
 
-        self.noise_position = 0.20  # can be modified later
-        self.noise_yaw = 0.15  # can be modified later
+        self.noise_position = 0.02  # can be modified later
+        self.noise_yaw = 0.02  # can be modified later
 
 
         self.particle_publisher = self.create_publisher(
@@ -182,8 +182,11 @@ class particle_filter(Node):
 
 
         
-        
-        self.motion_update(dx, dy, dyaw)
+        if abs(dx) > 0.001 or abs(dy) > 0.001 or abs(dyaw) > 0.001:
+
+            self.motion_update(dx, dy, dyaw)
+
+
 
         self.get_logger().info(
             f"dx={dx:.3f}, dy={dy:.3f}, dyaw={dyaw:.3f}"
