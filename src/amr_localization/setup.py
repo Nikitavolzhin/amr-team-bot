@@ -35,6 +35,7 @@ setup(
                 "amr_localization.particle_filter_node:main",
                 "gg = amr_localization.gg:main",
                 "lo = amr_localization.lo:main",
+                 "ggwp = amr_localization.ggwp:main",
 
 
                 
