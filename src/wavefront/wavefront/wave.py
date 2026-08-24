@@ -13,12 +13,24 @@ from rclpy.qos import QoSProfile, ReliabilityPolicy, DurabilityPolicy
 from nav_msgs.msg import Path
 from geometry_msgs.msg import PoseStamped
 
+from geometry_msgs.msg import PointStamped
+
 class Wave(Node):
     def __init__(self):
         super().__init__('wavefront_node')
-        goal_x = float(sys.argv[1])
-        goal_y = float(sys.argv[2])
-        self.goal = [goal_x, goal_y] #e.g. 5.0 -4.0 is valid
+        # goal_x = float(sys.argv[1])
+        # goal_y = float(sys.argv[2])
+        # self.goal = [goal_x, goal_y] #e.g. 5.0 -4.0 is valid
+
+        self.goal = None
+
+        self.goal_subscriber = self.create_subscription(
+            PointStamped,
+            '/clicked_point',
+            self.goal_callback,
+            10
+        )
+
         self.map = None
         odom_qos = QoSProfile(
             depth=10,
@@ -65,7 +77,15 @@ class Wave(Node):
             '/wavefront_path',
             path_qos
         )
-        
+
+    def goal_callback(self, msg):
+        self.goal = [msg.point.x, msg.point.y]
+        self.get_logger().info(
+            f'Received goal: x={msg.point.x:.3f}, y={msg.point.y:.3f}'
+        )
+
+        self.planning()
+
     def map_reader(self, msg):
         self.resolution = msg.info.resolution
         self.width = msg.info.width
@@ -77,7 +97,7 @@ class Wave(Node):
 
         self.wave_map = self.wave_map = np.full((self.height, self.width), -1, dtype=np.int32)
 
-        # increase borders by one grid-cell
+        # increase borders by 5 grid-cells
         for _ in range(5):
             delta_map = np.full((self.height, self.width), 0, dtype=np.int32)
 
@@ -108,6 +128,10 @@ class Wave(Node):
                 throttle_duration_sec=2.0
             )
             return
+        if self.goal is None:
+            self.get_logger().warn('Waiting for the goal')
+            return
+        
         init_idx = self.to_grid_idx(self.x, self.y)
         goal_idx = self.to_grid_idx(self.goal[0], self.goal[1])
         # to do: check if both goal and init have 0 values on the grid
