@@ -24,7 +24,7 @@ setup(
     },
     entry_points={
     'console_scripts': [
-        'rip_explorer_exe = my_explorer.explore_node:main',
+        'explorer_exe = my_explorer.explore_node:main',
     ],
 },
 )
