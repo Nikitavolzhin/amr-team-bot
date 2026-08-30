@@ -97,7 +97,7 @@ class Potential(Node):
         angle_to_goal = np.arctan2(v[1], v[0])
 
         msg.angular.z = self.normalize_angle(angle_to_goal)
-        msg.linear.x = v[0]
+        msg.linear.x = v[0]/3
         if np.linalg.norm(np.array([self.x, self.y]) - self.path[self.current_goal]) < self.buffer:
             msg.linear.x = 0.0
             #if abs(self.angle - self.goal_orientation) > 0.15:
