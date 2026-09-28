@@ -221,106 +221,163 @@ ros2 run teleop_twist_keyboard teleop_twist_keyboard
 
 Use the keyboard to move the Robile around the simulated environment. The MCL particle filter updates the particle distribution using odometry and LiDAR measurements.
 
-## Terminal Setup
 
-| Terminal | Process |
-|---|---|
-| 1 | Gazebo / Robile simulation |
-| 2 | Nav2 Map Server |
-| 3 | Map Server lifecycle configuration |
-| 4 | MCL particle filter |
-| 5 | RViz2 / navigation |
-| 6 | Keyboard teleoperation |
+# Running on robile
 
-## MCL Topics
 
-| Topic | Purpose |
-|---|---|
-| `/map` | Known occupancy-grid map |
-| `/odom` | Robot odometry |
-| `/scan` | Front LiDAR measurements |
-| `/particle_cloud` | Particle distribution |
-| `/particle_filter_pose` | Estimated robot pose |
 
-The simulation uses Gazebo time, so the Map Server and MCL node are started with `use_sim_time:=true`.
+The following steps should be run in separate terminals.
 
-## Notes
+### 0. Set Up Each Terminal
 
-The localisation system uses a **custom MCL particle filter** and does **not** use Nav2 AMCL.
+Before running the commands in each terminal, go to the project directory, source ROS 2 and the workspace, and set the ROS domain ID.
 
-The map is created separately and is used as the known map for localisation.
+```bash
+cd ~/HBRS/AMR/AMR_PROJECT/amr-team-bot
+source /opt/ros/humble/setup.bash
+source install/setup.bash
 
-The main localisation flow is:
-
-```text
-Map
- ↓
-MCL Particle Filter
- ↓
-Estimated Robot Pose
+export ROS_DOMAIN_ID=1
 ```
 
-The robot provides:
+The `ROS_DOMAIN_ID` depends on the Robile being used. Use the appropriate value:
 
 ```text
-Odometry + LiDAR
+ROS_DOMAIN_ID=1
+ROS_DOMAIN_ID=2
+ROS_DOMAIN_ID=3
+ROS_DOMAIN_ID=4
 ```
 
-to update the particle filter.
+For the simulation, use the domain ID configured for your setup.
 
-## Troubleshooting
+### 1. Start Gazebo
 
-Check the Map Server state:
+Open a new terminal:
+
+```bash
+cd ~/HBRS/AMR/AMR_PROJECT/amr-team-bot
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+export ROS_DOMAIN_ID=1
+
+ros2 launch robile_gazebo gazebo_4_wheel.launch.py
+```
+
+Keep this terminal running.
+
+### 2. Load the Map
+
+Open a new terminal:
+
+```bash
+cd ~/HBRS/AMR/AMR_PROJECT/amr-team-bot
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+export ROS_DOMAIN_ID=1
+
+ros2 run nav2_map_server map_server \
+  --ros-args \
+  -p yaml_filename:=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation/maps/lab_map_updated.yaml \
+  -p use_sim_time:=false
+```
+
+The YAML file loads the corresponding PGM occupancy-grid map.
+
+### 3. Configure and Activate the Map Server
+
+Open another terminal:
+
+```bash
+cd ~/HBRS/AMR/AMR_PROJECT/amr-team-bot
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+export ROS_DOMAIN_ID=1
+
+ros2 lifecycle get /map_server
+```
+
+Configure the map server:
+
+```bash
+ros2 lifecycle set /map_server configure
+```
+
+Activate it:
+
+```bash
+ros2 lifecycle set /map_server activate
+```
+
+Check that the map is being published:
+
+```bash
+ros2 topic echo /map --once | head -25
+```
+
+Check the lifecycle state again:
 
 ```bash
 ros2 lifecycle get /map_server
 ```
 
-Check whether the map is being published:
+### 4. Start the MCL Particle Filter
+
+Open another terminal:
 
 ```bash
-ros2 topic echo /map --once
+cd ~/HBRS/AMR/AMR_PROJECT/amr-team-bot
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+export ROS_DOMAIN_ID=1
+
+ros2 run amr_localization particle_filter_localization \
+  --ros-args \
+  -p use_sim_time:=false
 ```
 
-Check available ROS 2 topics:
+The particle filter uses the map, robot odometry, and LiDAR measurements to estimate the robot pose.
+
+### 5. Start RViz2
+
+Open another terminal:
 
 ```bash
-ros2 topic list
+cd ~/HBRS/AMR/AMR_PROJECT/amr-team-bot
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+export ROS_DOMAIN_ID=1
+
+rviz2
 ```
 
-Useful topics to verify are:
+RViz2 can be used to observe the map, robot, LiDAR scans, TF frames, particle cloud, and estimated pose.
 
-```text
-/map
-/odom
-/scan
-/particle_cloud
-/particle_filter_pose
-/tf
-/tf_static
-```
+### 6. Move the Robot
 
-If the particle filter does not receive simulation time correctly, make sure it was started with:
+Open another terminal:
 
 ```bash
--p use_sim_time:=true
+cd ~/HBRS/AMR/AMR_PROJECT/amr-team-bot
+source /opt/ros/humble/setup.bash
+source install/setup.bash
+
+export ROS_DOMAIN_ID=1
+
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
-## Project Structure
+Use the keyboard to move the Robile around the simulated environment. The MCL particle filter updates the particle distribution using odometry and LiDAR measurements.
 
-The main localisation package is:
 
-```text
-amr_localization
-```
 
-The map used for the simulation is located at:
 
-```text
-src/robile_navigation/maps/closed_walls_map.yaml
-```
 
-with its corresponding PGM map file.
 
 
 
