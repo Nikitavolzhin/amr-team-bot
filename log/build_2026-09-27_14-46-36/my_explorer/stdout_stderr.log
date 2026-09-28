@@ -1,0 +1,35 @@
+running develop
+Removing /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my-explorer.egg-link (link to .)
+running egg_info
+writing ../../build/my_explorer/my_explorer.egg-info/PKG-INFO
+writing dependency_links to ../../build/my_explorer/my_explorer.egg-info/dependency_links.txt
+writing entry points to ../../build/my_explorer/my_explorer.egg-info/entry_points.txt
+writing requirements to ../../build/my_explorer/my_explorer.egg-info/requires.txt
+writing top-level names to ../../build/my_explorer/my_explorer.egg-info/top_level.txt
+reading manifest file '../../build/my_explorer/my_explorer.egg-info/SOURCES.txt'
+writing manifest file '../../build/my_explorer/my_explorer.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer
+copying my_explorer/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer
+copying my_explorer/explore_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer
+copying my_explorer/setup.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer
+running install
+running install_lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer/explore_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer/setup.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer/explore_node.py to explore_node.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer/setup.py to setup.cpython-310.pyc
+running install_data
+copying resource/my_explorer -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index/packages
+copying package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer
+running install_egg_info
+Copying ../../build/my_explorer/my_explorer.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer-0.0.0-py3.10.egg-info
+running install_scripts
+Installing explorer_exe script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/my_explorer
+writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/install.log'

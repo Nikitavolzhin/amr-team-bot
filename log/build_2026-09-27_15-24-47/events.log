@@ -1,0 +1,636 @@
+[0.000000] (-) TimerEvent: {}
+[0.000751] (-) JobUnselected: {'identifier': 'amr_localization'}
+[0.001145] (-) JobUnselected: {'identifier': 'aws_robomaker_small_house_world'}
+[0.001186] (-) JobUnselected: {'identifier': 'mcl_particle_filter'}
+[0.001231] (-) JobUnselected: {'identifier': 'my_explorer'}
+[0.001292] (-) JobUnselected: {'identifier': 'particle_localization'}
+[0.001920] (-) JobUnselected: {'identifier': 'potential'}
+[0.001970] (-) JobUnselected: {'identifier': 'robile_bringup'}
+[0.002008] (-) JobUnselected: {'identifier': 'robile_control_simple'}
+[0.002056] (-) JobUnselected: {'identifier': 'robile_description'}
+[0.002106] (-) JobUnselected: {'identifier': 'robile_interfaces'}
+[0.002156] (-) JobUnselected: {'identifier': 'robile_navigation'}
+[0.002210] (-) JobUnselected: {'identifier': 'robile_reach_goal'}
+[0.002273] (-) JobUnselected: {'identifier': 'wavefront'}
+[0.002585] (robile_gazebo) JobQueued: {'identifier': 'robile_gazebo', 'dependencies': OrderedDict([('robile_description', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description')])}
+[0.002654] (robile_gazebo) JobStarted: {'identifier': 'robile_gazebo'}
+[0.037175] (robile_gazebo) JobProgress: {'identifier': 'robile_gazebo', 'progress': 'cmake'}
+[0.039883] (robile_gazebo) JobProgress: {'identifier': 'robile_gazebo', 'progress': 'build'}
+[0.042086] (robile_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo', '--', '-j8', '-l8'], 'cwd': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ashraful'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ashraful/.mujoco/mujoco-3.9.0/lib:/home/ashraful/.mujoco/mujoco-3.9.0/lib'), ('HOME', '/home/ashraful'), ('OLDPWD', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1723'), ('SYSTEMD_EXEC_PID', '2083'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87784'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ashraful'), ('JOURNAL_STREAM', '8:20533'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ashraful'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ashraful/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ashraful/.mujoco/mujoco-3.9.0/bin'), ('SESSION_MANAGER', 'local/ashraful:@/tmp/.ICE-unix/1865,unix/ashraful:/tmp/.ICE-unix/1865'), ('INVOCATION_ID', '8220aff1741a4be28484ee2ff67f3009'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RE1JW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:44ff7581-ee04-4ed2-b05e-f2c621e7cdf8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation/local/lib/python3.10/dist-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/local/lib/python3.10/dist-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble')]), 'shell': False}
+[0.098731] (-) TimerEvent: {}
+[0.113179] (robile_gazebo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.198924] (-) TimerEvent: {}
+[0.299656] (-) TimerEvent: {}
+[0.400973] (-) TimerEvent: {}
+[0.501642] (-) TimerEvent: {}
+[0.550663] (robile_gazebo) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.568548] (robile_gazebo) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.601888] (-) TimerEvent: {}
+[0.646835] (robile_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.654399] (robile_gazebo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.671698] (robile_gazebo) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.698043] (robile_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.701981] (-) TimerEvent: {}
+[0.732267] (robile_gazebo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.802112] (-) TimerEvent: {}
+[0.815217] (robile_gazebo) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.819794] (robile_gazebo) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.902315] (-) TimerEvent: {}
+[1.002999] (-) TimerEvent: {}
+[1.095599] (robile_gazebo) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.103172] (-) TimerEvent: {}
+[1.203842] (-) TimerEvent: {}
+[1.243435] (robile_gazebo) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):\n'}
+[1.244075] (robile_gazebo) StderrLine: {'line': b'  The package name passed to `find_package_handle_standard_args` (PkgConfig)\n'}
+[1.244294] (robile_gazebo) StderrLine: {'line': b'  does not match the name of the calling package (gazebo).  This can lead to\n'}
+[1.244474] (robile_gazebo) StderrLine: {'line': b'  problems in calling code that expects `find_package` result variables\n'}
+[1.244630] (robile_gazebo) StderrLine: {'line': b'  (e.g., `_FOUND`) to follow a certain pattern.\n'}
+[1.244754] (robile_gazebo) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.244876] (robile_gazebo) StderrLine: {'line': b'  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)\n'}
+[1.244998] (robile_gazebo) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)\n'}
+[1.245111] (robile_gazebo) StderrLine: {'line': b'  CMakeLists.txt:16 (find_package)\n'}
+[1.245222] (robile_gazebo) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[1.245362] (robile_gazebo) StderrLine: {'line': b'\x1b[0m\n'}
+[1.303977] (-) TimerEvent: {}
+[1.333956] (robile_gazebo) StdoutLine: {'line': b'-- Found DART: /usr/include (Required is at least version "6.6") found components: dart \n'}
+[1.404169] (-) TimerEvent: {}
+[1.434197] (robile_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") \n'}
+[1.439490] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[1.454788] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-math6\n'}
+[1.460025] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE...\n'}
+[1.476220] (robile_gazebo) StdoutLine: {'line': b'-- Found Ogre Ghadamon (1.9.0)\n'}
+[1.477224] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so\n'}
+[1.501718] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Paging...\n'}
+[1.502389] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so\n'}
+[1.502963] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Terrain...\n'}
+[1.503207] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so\n'}
+[1.503913] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Property...\n'}
+[1.504231] (-) TimerEvent: {}
+[1.504662] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so\n'}
+[1.505106] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_RTShaderSystem...\n'}
+[1.505432] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so\n'}
+[1.505651] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Volume...\n'}
+[1.505840] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so\n'}
+[1.506027] (robile_gazebo) StdoutLine: {'line': b'-- Looking for OGRE_Overlay...\n'}
+[1.506203] (robile_gazebo) StdoutLine: {'line': b'-- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so\n'}
+[1.604436] (-) TimerEvent: {}
+[1.705162] (-) TimerEvent: {}
+[1.806004] (-) TimerEvent: {}
+[1.906799] (-) TimerEvent: {}
+[1.993643] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[1.997935] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-transport8 -- found version 8.2.1\n'}
+[1.999427] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-transport8\n'}
+[2.006967] (-) TimerEvent: {}
+[2.063045] (robile_gazebo) StdoutLine: {'line': b'-- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") \n'}
+[2.103128] (robile_gazebo) StdoutLine: {'line': b'-- Config-file not installed for ZeroMQ -- checking for pkg-config\n'}
+[2.107156] (-) TimerEvent: {}
+[2.116522] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzmq >= 4'\n"}
+[2.162951] (robile_gazebo) StdoutLine: {'line': b'--   Found libzmq , version 4.3.4\n'}
+[2.207395] (-) TimerEvent: {}
+[2.295469] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'uuid'\n"}
+[2.307564] (-) TimerEvent: {}
+[2.335013] (robile_gazebo) StdoutLine: {'line': b'--   Found uuid, version 2.37.2\n'}
+[2.407804] (-) TimerEvent: {}
+[2.441973] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.443636] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-msgs5\n'}
+[2.508020] (-) TimerEvent: {}
+[2.510374] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[2.527959] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'tinyxml2'\n"}
+[2.569325] (robile_gazebo) StdoutLine: {'line': b'--   Found tinyxml2, version 9.0.0\n'}
+[2.608280] (-) TimerEvent: {}
+[2.669023] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[2.670523] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[2.672289] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3\n'}
+[2.672927] (robile_gazebo) StdoutLine: {'line': b'-- Looking for dlfcn.h - found\n'}
+[2.673182] (robile_gazebo) StdoutLine: {'line': b'-- Looking for libdl - found\n'}
+[2.706181] (robile_gazebo) StdoutLine: {'line': b'-- Searching for <ignition-common3> component [graphics]\n'}
+[2.708173] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3-graphics -- found version 3.14.0\n'}
+[2.708605] (-) TimerEvent: {}
+[2.710105] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-common3-graphics\n'}
+[2.711229] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[2.714752] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-fuel_tools4 -- found version 4.4.0\n'}
+[2.716317] (robile_gazebo) StdoutLine: {'line': b'-- Searching for dependencies of ignition-fuel_tools4\n'}
+[2.808763] (-) TimerEvent: {}
+[2.856639] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'jsoncpp'\n"}
+[2.898104] (robile_gazebo) StdoutLine: {'line': b'--   Found jsoncpp, version 1.9.5\n'}
+[2.908991] (-) TimerEvent: {}
+[3.009677] (-) TimerEvent: {}
+[3.016623] (robile_gazebo) StdoutLine: {'line': b"-- Checking for module 'libzip'\n"}
+[3.056286] (robile_gazebo) StdoutLine: {'line': b'--   Found libzip, version 1.7.3\n'}
+[3.109902] (-) TimerEvent: {}
+[3.157473] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-common3 -- found version 3.14.0\n'}
+[3.158508] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-math6 -- found version 6.16.0\n'}
+[3.159657] (robile_gazebo) StdoutLine: {'line': b'-- Looking for ignition-msgs5 -- found version 5.8.1\n'}
+[3.169338] (robile_gazebo) StdoutLine: {'line': b'-- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)\n'}
+[3.170112] (robile_gazebo) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[3.210070] (-) TimerEvent: {}
+[3.220845] (robile_gazebo) StdoutLine: {'line': b'-- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[3.263788] (robile_gazebo) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[3.308828] (robile_gazebo) StdoutLine: {'line': b'-- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)\n'}
+[3.310227] (-) TimerEvent: {}
+[3.410948] (-) TimerEvent: {}
+[3.511657] (-) TimerEvent: {}
+[3.612292] (-) TimerEvent: {}
+[3.645747] (robile_gazebo) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.663848] (robile_gazebo) StdoutLine: {'line': b'-- Generating done\n'}
+[3.671911] (robile_gazebo) StdoutLine: {'line': b'-- Build files have been written to: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo\n'}
+[3.712468] (-) TimerEvent: {}
+[3.747452] (robile_gazebo) CommandEnded: {'returncode': 0}
+[3.750022] (robile_gazebo) JobProgress: {'identifier': 'robile_gazebo', 'progress': 'install'}
+[3.772060] (robile_gazebo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo'], 'cwd': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ashraful'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ashraful/.mujoco/mujoco-3.9.0/lib:/home/ashraful/.mujoco/mujoco-3.9.0/lib'), ('HOME', '/home/ashraful'), ('OLDPWD', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('MANAGERPID', '1723'), ('SYSTEMD_EXEC_PID', '2083'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '87784'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ashraful'), ('JOURNAL_STREAM', '8:20533'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'ashraful'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/ashraful/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ashraful/.mujoco/mujoco-3.9.0/bin'), ('SESSION_MANAGER', 'local/ashraful:@/tmp/.ICE-unix/1865,unix/ashraful:/tmp/.ICE-unix/1865'), ('INVOCATION_ID', '8220aff1741a4be28484ee2ff67f3009'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.RE1JW3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:44ff7581-ee04-4ed2-b05e-f2c621e7cdf8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation/local/lib/python3.10/dist-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/local/lib/python3.10/dist-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble')]), 'shell': False}
+[3.792428] (robile_gazebo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.794283] (robile_gazebo) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.795604] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/doxygen/Doxyfile.in\n'}
+[3.796173] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile.rviz\n'}
+[3.796605] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_foxy_nav.rviz\n'}
+[3.796875] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_rolling.rviz\n'}
+[3.797233] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch (another copy).py\n'}
+[3.812571] (-) TimerEvent: {}
+[3.819995] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch (copy).py\n'}
+[3.820504] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch.py\n'}
+[3.820948] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//worlds/closed_walls.world\n'}
+[3.821175] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//worlds/potential_field_gazebo.world\n'}
+[3.821508] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//worlds/small_house.world\n'}
+[3.835697] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/materials/textures/aws_AirconditionerA_01.png\n'}
+[3.859712] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_collision.DAE\n'}
+[3.882184] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE\n'}
+[3.905235] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/meshes/aws__Air conditioner_01.DAE\n'}
+[3.912733] (-) TimerEvent: {}
+[3.928091] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/model.config\n'}
+[3.954073] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/model.sdf\n'}
+[3.978134] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/materials/textures/aws_AirconditionerB_01.png\n'}
+[4.001964] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE\n'}
+[4.012925] (-) TimerEvent: {}
+[4.024887] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_visual.DAE\n'}
+[4.048636] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/model.config\n'}
+[4.071317] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/model.sdf\n'}
+[4.094065] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/materials/textures/aws_BalconyTable_01.png\n'}
+[4.113132] (-) TimerEvent: {}
+[4.116968] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_collision.DAE\n'}
+[4.140086] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_visual.DAE\n'}
+[4.166626] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/model.config\n'}
+[4.188596] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/model.sdf\n'}
+[4.211100] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/materials/textures/aws_Ball_01.png\n'}
+[4.213281] (-) TimerEvent: {}
+[4.234446] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_collision.DAE\n'}
+[4.257720] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_visual.DAE\n'}
+[4.279351] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/model.config\n'}
+[4.304188] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/model.sdf\n'}
+[4.313508] (-) TimerEvent: {}
+[4.330497] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedA_01.png\n'}
+[4.354940] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedB_01.png\n'}
+[4.378149] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedC_01.png\n'}
+[4.400988] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/materials/textures/aws_Bed_01.png\n'}
+[4.413685] (-) TimerEvent: {}
+[4.423063] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_collision.DAE\n'}
+[4.445888] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_visual.DAE\n'}
+[4.468725] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/model.config\n'}
+[4.491207] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/model.sdf\n'}
+[4.513624] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/materials/textures/aws_Board_01.png\n'}
+[4.514019] (-) TimerEvent: {}
+[4.535188] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_collision.DAE\n'}
+[4.559327] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_visual.DAE\n'}
+[4.583478] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/model.config\n'}
+[4.608525] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/model.sdf\n'}
+[4.614336] (-) TimerEvent: {}
+[4.634885] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/materials/textures/aws_Carpet_01.png\n'}
+[4.659646] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE\n'}
+[4.682704] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE\n'}
+[4.706047] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/model.config\n'}
+[4.714549] (-) TimerEvent: {}
+[4.729951] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/model.sdf\n'}
+[4.753053] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/materials/textures/aws_ChairA_01.png\n'}
+[4.776731] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_collision.DAE\n'}
+[4.800838] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_visual.DAE\n'}
+[4.814676] (-) TimerEvent: {}
+[4.826228] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/model.config\n'}
+[4.851065] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/model.sdf\n'}
+[4.874435] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/materials/textures/aws_ChairD_01.png\n'}
+[4.896283] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_collision.DAE\n'}
+[4.914887] (-) TimerEvent: {}
+[4.918663] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_visual.DAE\n'}
+[4.939771] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/model.config\n'}
+[4.962017] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/model.sdf\n'}
+[4.984894] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/materials/textures/aws_Chandelier_01.png\n'}
+[5.007056] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01.DAE\n'}
+[5.015002] (-) TimerEvent: {}
+[5.036835] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_collision.DAE\n'}
+[5.062049] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_visual.DAE\n'}
+[5.084766] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/model.config\n'}
+[5.107819] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/model.sdf\n'}
+[5.115319] (-) TimerEvent: {}
+[5.130971] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png\n'}
+[5.156943] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE\n'}
+[5.183148] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE\n'}
+[5.207064] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/model.config\n'}
+[5.215765] (-) TimerEvent: {}
+[5.231842] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/model.sdf\n'}
+[5.253954] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/materials/textures/aws_CookingBench_01.png\n'}
+[5.275473] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01.DAE\n'}
+[5.297643] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_collision.DAE\n'}
+[5.315963] (-) TimerEvent: {}
+[5.321033] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_visual.DAE\n'}
+[5.344330] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/model.config\n'}
+[5.366420] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/model.sdf\n'}
+[5.385658] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/materials/textures/aws_Curtain_01.png\n'}
+[5.407809] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_collision.DAE\n'}
+[5.416075] (-) TimerEvent: {}
+[5.432885] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_visual.DAE\n'}
+[5.455304] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/model.config\n'}
+[5.479152] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/model.sdf\n'}
+[5.504519] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_01.png\n'}
+[5.516292] (-) TimerEvent: {}
+[5.528350] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_02.png\n'}
+[5.552826] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_collision.DAE\n'}
+[5.575077] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_visual.DAE\n'}
+[5.597946] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/model.config\n'}
+[5.616426] (-) TimerEvent: {}
+[5.619988] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/model.sdf\n'}
+[5.641283] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_01.png\n'}
+[5.664301] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_02.png\n'}
+[5.687271] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_collision.DAE\n'}
+[5.706960] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_visual.DAE\n'}
+[5.716581] (-) TimerEvent: {}
+[5.728595] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/model.config\n'}
+[5.754602] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/model.sdf\n'}
+[5.778502] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_01.png\n'}
+[5.802820] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_02.png\n'}
+[5.816724] (-) TimerEvent: {}
+[5.833459] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_collision.DAE\n'}
+[5.859743] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_visual.DAE\n'}
+[5.886316] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/model.config\n'}
+[5.910956] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/model.sdf\n'}
+[5.916963] (-) TimerEvent: {}
+[5.936783] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_01.png\n'}
+[5.968899] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_02.png\n'}
+[6.001575] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_collision.DAE\n'}
+[6.017812] (-) TimerEvent: {}
+[6.046349] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_visual.DAE\n'}
+[6.082173] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/model.config\n'}
+[6.113266] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/model.sdf\n'}
+[6.120398] (-) TimerEvent: {}
+[6.146167] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_01.png\n'}
+[6.176050] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_02.png\n'}
+[6.210589] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_collision.DAE\n'}
+[6.220641] (-) TimerEvent: {}
+[6.243538] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_visual.DAE\n'}
+[6.280734] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/model.config\n'}
+[6.312817] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/model.sdf\n'}
+[6.320768] (-) TimerEvent: {}
+[6.340175] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_01.png\n'}
+[6.370790] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_02.png\n'}
+[6.406671] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_collision.DAE\n'}
+[6.421438] (-) TimerEvent: {}
+[6.442542] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_visual.DAE\n'}
+[6.470534] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/model.config\n'}
+[6.495108] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/model.sdf\n'}
+[6.519820] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_01.png\n'}
+[6.521522] (-) TimerEvent: {}
+[6.542636] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_02.png\n'}
+[6.567810] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_collision.DAE\n'}
+[6.592889] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_visual.DAE\n'}
+[6.621775] (-) TimerEvent: {}
+[6.622956] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/model.config\n'}
+[6.652844] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/model.sdf\n'}
+[6.678640] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_01.png\n'}
+[6.704119] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_02.png\n'}
+[6.721957] (-) TimerEvent: {}
+[6.735576] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_collision.DAE\n'}
+[6.767287] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_visual.DAE\n'}
+[6.792226] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/model.config\n'}
+[6.818211] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/model.sdf\n'}
+[6.822099] (-) TimerEvent: {}
+[6.843433] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_01.png\n'}
+[6.867235] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_02.png\n'}
+[6.892497] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_collision.DAE\n'}
+[6.920615] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_visual.DAE\n'}
+[6.922279] (-) TimerEvent: {}
+[6.944484] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/model.config\n'}
+[6.977621] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/model.sdf\n'}
+[7.000703] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_01.png\n'}
+[7.021999] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_02.png\n'}
+[7.022403] (-) TimerEvent: {}
+[7.053702] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_collision.DAE\n'}
+[7.077702] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_visual.DAE\n'}
+[7.098750] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/model.config\n'}
+[7.122702] (-) TimerEvent: {}
+[7.129295] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/model.sdf\n'}
+[7.154500] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/materials/textures/aws_Door_01.png\n'}
+[7.179057] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_collision.DAE\n'}
+[7.202601] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_visual.DAE\n'}
+[7.222844] (-) TimerEvent: {}
+[7.225923] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/model.config\n'}
+[7.249751] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/model.sdf\n'}
+[7.271580] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/materials/textures/aws_Dumbbell_01.png\n'}
+[7.292776] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_collision.DAE\n'}
+[7.319856] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_visual.DAE\n'}
+[7.323059] (-) TimerEvent: {}
+[7.341497] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/model.config\n'}
+[7.364890] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/model.sdf\n'}
+[7.386788] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/materials/textures/aws_FitnessEquipment_01.png\n'}
+[7.407980] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_collision.DAE\n'}
+[7.423195] (-) TimerEvent: {}
+[7.428556] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_visual.DAE\n'}
+[7.451125] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/model.config\n'}
+[7.473135] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/model.sdf\n'}
+[7.495703] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/materials/textures/aws_FloorB_01.png\n'}
+[7.517137] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_collision.DAE\n'}
+[7.523451] (-) TimerEvent: {}
+[7.539348] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_visual.DAE\n'}
+[7.563100] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/model.config\n'}
+[7.586397] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/model.sdf\n'}
+[7.608095] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/materials/textures/aws_FoldingDoor_01.png\n'}
+[7.623637] (-) TimerEvent: {}
+[7.631810] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_collision.DAE\n'}
+[7.655578] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_visual.DAE\n'}
+[7.679793] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/model.config\n'}
+[7.704487] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/model.sdf\n'}
+[7.723876] (-) TimerEvent: {}
+[7.729821] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/materials/textures/aws_FoldingDoor_02.png\n'}
+[7.753418] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_collision.DAE\n'}
+[7.777186] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_visual.DAE\n'}
+[7.800465] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/model.config\n'}
+[7.823304] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/model.sdf\n'}
+[7.823892] (-) TimerEvent: {}
+[7.847425] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/materials/textures/aws_Handle_01.png\n'}
+[7.877439] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/meshes/aws_ handle_01_collision.DAE\n'}
+[7.900455] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_collision.DAE\n'}
+[7.923839] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_visual.DAE\n'}
+[7.924512] (-) TimerEvent: {}
+[7.948552] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/model.config\n'}
+[7.981115] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/model.sdf\n'}
+[8.007406] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/materials/textures/aws_HouseWallB_01.png\n'}
+[8.024706] (-) TimerEvent: {}
+[8.033955] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_collision.DAE\n'}
+[8.057161] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_visual.DAE\n'}
+[8.081990] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/model.config\n'}
+[8.104577] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/model.sdf\n'}
+[8.124854] (-) TimerEvent: {}
+[8.127630] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/materials/textures/aws_KitchenCabinet_01.png\n'}
+[8.151619] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_collision.DAE\n'}
+[8.176004] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_visual.DAE\n'}
+[8.199698] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/model.config\n'}
+[8.225039] (-) TimerEvent: {}
+[8.230386] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/model.sdf\n'}
+[8.264828] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/materials/textures/aws_KitchenTable_01.png\n'}
+[8.294539] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_collision.DAE\n'}
+[8.322693] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_visual.DAE\n'}
+[8.325172] (-) TimerEvent: {}
+[8.343367] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/model.config\n'}
+[8.364698] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/model.sdf\n'}
+[8.387312] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/materials/textures/aws_KitchenUtensils_01.png\n'}
+[8.407571] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_collision.DAE\n'}
+[8.425367] (-) TimerEvent: {}
+[8.427116] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_visual.DAE\n'}
+[8.448997] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/model.config\n'}
+[8.472419] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/model.sdf\n'}
+[8.494278] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/materials/textures/aws_LightC_01.png\n'}
+[8.516117] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_collision.DAE\n'}
+[8.525534] (-) TimerEvent: {}
+[8.537341] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_visual.DAE\n'}
+[8.559149] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/model.config\n'}
+[8.578341] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/model.sdf\n'}
+[8.599874] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/materials/textures/aws_NightStand_01.png\n'}
+[8.620094] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_collision.DAE\n'}
+[8.625714] (-) TimerEvent: {}
+[8.641126] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_visual.DAE\n'}
+[8.664165] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/model.config\n'}
+[8.685301] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/model.sdf\n'}
+[8.707201] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/materials/textures/aws_Pillow_01.png\n'}
+[8.725848] (-) TimerEvent: {}
+[8.731983] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_collision.DAE\n'}
+[8.754644] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_visual.DAE\n'}
+[8.776236] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/model.config\n'}
+[8.797603] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/model.sdf\n'}
+[8.820867] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_01.png\n'}
+[8.825978] (-) TimerEvent: {}
+[8.843447] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_02.png\n'}
+[8.864873] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_collision.DAE\n'}
+[8.885830] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_visual.DAE\n'}
+[8.907464] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/model.config\n'}
+[8.926176] (-) TimerEvent: {}
+[8.927702] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/model.sdf\n'}
+[8.950413] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_01.png\n'}
+[8.973747] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_02.png\n'}
+[8.998522] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_collision.DAE\n'}
+[9.025999] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_visual.DAE\n'}
+[9.026576] (-) TimerEvent: {}
+[9.046668] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/model.config\n'}
+[9.069590] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/model.sdf\n'}
+[9.093293] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_01.png\n'}
+[9.113827] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_02.png\n'}
+[9.126734] (-) TimerEvent: {}
+[9.135573] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_collision.DAE\n'}
+[9.164505] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_visual.DAE\n'}
+[9.192656] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/model.config\n'}
+[9.222076] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/model.sdf\n'}
+[9.227035] (-) TimerEvent: {}
+[9.254405] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_01.png\n'}
+[9.287199] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_02.png\n'}
+[9.317207] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_collision.DAE\n'}
+[9.327269] (-) TimerEvent: {}
+[9.350425] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_visual.DAE\n'}
+[9.379128] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/model.config\n'}
+[9.407327] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/model.sdf\n'}
+[9.427434] (-) TimerEvent: {}
+[9.432981] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_01.png\n'}
+[9.463546] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_02.png\n'}
+[9.503301] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_collision.DAE\n'}
+[9.527559] (-) TimerEvent: {}
+[9.530794] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_visual.DAE\n'}
+[9.565900] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/model.config\n'}
+[9.590909] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/model.sdf\n'}
+[9.616448] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_01.png\n'}
+[9.627766] (-) TimerEvent: {}
+[9.640375] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_02.png\n'}
+[9.664914] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_collision.DAE\n'}
+[9.688961] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_visual.DAE\n'}
+[9.715714] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/model.config\n'}
+[9.727909] (-) TimerEvent: {}
+[9.745900] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/model.sdf\n'}
+[9.769859] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_01.png\n'}
+[9.795696] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_02.png\n'}
+[9.819135] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_collision.DAE\n'}
+[9.828138] (-) TimerEvent: {}
+[9.844015] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_visual.DAE\n'}
+[9.866968] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/model.config\n'}
+[9.889434] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/model.sdf\n'}
+[9.914994] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_01.png\n'}
+[9.928363] (-) TimerEvent: {}
+[9.938595] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_02.png\n'}
+[9.962890] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_collision.DAE\n'}
+[9.990915] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_visual.DAE\n'}
+[10.015491] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/model.config\n'}
+[10.028554] (-) TimerEvent: {}
+[10.039075] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/model.sdf\n'}
+[10.063817] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_01.png\n'}
+[10.087195] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_02.png\n'}
+[10.111474] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_collision.DAE\n'}
+[10.128737] (-) TimerEvent: {}
+[10.134282] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_visual.DAE\n'}
+[10.161728] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/model.config\n'}
+[10.187383] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/model.sdf\n'}
+[10.213979] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_01.png\n'}
+[10.228975] (-) TimerEvent: {}
+[10.237729] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_02.png\n'}
+[10.263469] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_collision.DAE\n'}
+[10.289220] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_visual.DAE\n'}
+[10.318654] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/model.config\n'}
+[10.329187] (-) TimerEvent: {}
+[10.373152] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/model.sdf\n'}
+[10.401326] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/materials/textures/aws_Quilt_01.png\n'}
+[10.429435] (-) TimerEvent: {}
+[10.436048] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_collision.DAE\n'}
+[10.468474] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_visual.DAE\n'}
+[10.496493] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/model.config\n'}
+[10.521630] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/model.sdf\n'}
+[10.529658] (-) TimerEvent: {}
+[10.546064] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/materials/textures/aws_Rangehood_01.png\n'}
+[10.573615] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_collision.DAE\n'}
+[10.598325] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_visual.DAE\n'}
+[10.624018] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/model.config\n'}
+[10.629773] (-) TimerEvent: {}
+[10.646726] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/model.sdf\n'}
+[10.671843] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/materials/textures/aws_ReadingDesk_01.png\n'}
+[10.698118] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_collision.DAE\n'}
+[10.723957] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_visual.DAE\n'}
+[10.729987] (-) TimerEvent: {}
+[10.751904] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/model.config\n'}
+[10.777425] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/model.sdf\n'}
+[10.801388] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_01.png\n'}
+[10.830176] (-) TimerEvent: {}
+[10.834688] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_02.png\n'}
+[10.863327] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01.DAE\n'}
+[10.893517] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_collision.DAE\n'}
+[10.918081] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_visual.DAE\n'}
+[10.930325] (-) TimerEvent: {}
+[10.943759] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/model.config\n'}
+[10.971686] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/model.sdf\n'}
+[10.996241] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/materials/textures/aws_RoomCeiling_01.png\n'}
+[11.024307] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_collision.DAE\n'}
+[11.030596] (-) TimerEvent: {}
+[11.052626] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_visual.DAE\n'}
+[11.079212] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/model.config\n'}
+[11.114359] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/model.sdf\n'}
+[11.130817] (-) TimerEvent: {}
+[11.145105] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/materials/textures/aws_RoomWall_01.png\n'}
+[11.172092] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE\n'}
+[11.195153] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE\n'}
+[11.219822] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/model.config\n'}
+[11.231060] (-) TimerEvent: {}
+[11.241890] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/model.sdf\n'}
+[11.268646] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/materials/textures/aws_RoomWindow_01.png\n'}
+[11.294006] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_collision.DAE\n'}
+[11.321550] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_visual.DAE\n'}
+[11.331279] (-) TimerEvent: {}
+[11.349302] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/model.config\n'}
+[11.374476] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/model.sdf\n'}
+[11.399122] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/materials/textures/aws_SeasoningBox_01.png\n'}
+[11.423457] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_collision.DAE\n'}
+[11.431374] (-) TimerEvent: {}
+[11.445549] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_visual.DAE\n'}
+[11.470335] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/model.config\n'}
+[11.492009] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/model.sdf\n'}
+[11.521100] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png\n'}
+[11.531587] (-) TimerEvent: {}
+[11.542863] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE\n'}
+[11.566436] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE\n'}
+[11.589919] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/model.config\n'}
+[11.611060] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/model.sdf\n'}
+[11.631769] (-) TimerEvent: {}
+[11.634716] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/materials/textures/aws_ShoeRack_01.png\n'}
+[11.658136] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_collision.DAE\n'}
+[11.683971] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_visual.DAE\n'}
+[11.705177] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/model.config\n'}
+[11.729973] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/model.sdf\n'}
+[11.731882] (-) TimerEvent: {}
+[11.752848] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/materials/textures/aws_SofaB_01.png\n'}
+[11.774867] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_collision.DAE\n'}
+[11.798400] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_visual.DAE\n'}
+[11.820426] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/model.config\n'}
+[11.832088] (-) TimerEvent: {}
+[11.842887] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/model.sdf\n'}
+[11.865485] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/materials/textures/aws_SofaC_01.png\n'}
+[11.887406] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_collision.DAE\n'}
+[11.907729] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_visual.DAE\n'}
+[11.929655] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/model.config\n'}
+[11.932223] (-) TimerEvent: {}
+[11.951298] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/model.sdf\n'}
+[11.973888] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/materials/textures/aws_Sofa_01.png\n'}
+[12.000689] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01.DAE\n'}
+[12.027309] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE\n'}
+[12.032446] (-) TimerEvent: {}
+[12.052383] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE\n'}
+[12.081832] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/model.config\n'}
+[12.111782] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/model.sdf\n'}
+[12.132662] (-) TimerEvent: {}
+[12.137091] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/materials/textures/aws_TVCabinet_01.png\n'}
+[12.166896] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_collision.DAE\n'}
+[12.194920] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_visual.DAE\n'}
+[12.219048] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/model.config\n'}
+[12.232850] (-) TimerEvent: {}
+[12.244226] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/model.sdf\n'}
+[12.267620] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/materials/textures/aws_TV_01.png\n'}
+[12.290065] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_collision.DAE\n'}
+[12.309608] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_visual.DAE\n'}
+[12.330802] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/model.config\n'}
+[12.333063] (-) TimerEvent: {}
+[12.353587] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/model.sdf\n'}
+[12.375371] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/materials/textures/aws_TV_01.png\n'}
+[12.397064] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_collision.DAE\n'}
+[12.418273] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_visual.DAE\n'}
+[12.433177] (-) TimerEvent: {}
+[12.440897] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/model.config\n'}
+[12.466069] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/model.sdf\n'}
+[12.490443] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/materials/textures/aws_Tablet_01_nologo.png\n'}
+[12.510953] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_collision.DAE\n'}
+[12.531483] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_visual.DAE\n'}
+[12.533389] (-) TimerEvent: {}
+[12.555864] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/model.config\n'}
+[12.578829] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/model.sdf\n'}
+[12.601903] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/materials/textures/aws_Tableware_01.png\n'}
+[12.623914] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE\n'}
+[12.633594] (-) TimerEvent: {}
+[12.645536] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE\n'}
+[12.667475] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/model.config\n'}
+[12.689555] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/model.sdf\n'}
+[12.711318] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png\n'}
+[12.733724] (-) TimerEvent: {}
+[12.734058] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE\n'}
+[12.756997] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE\n'}
+[12.779791] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/model.config\n'}
+[12.801540] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/model.sdf\n'}
+[12.823532] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/materials/textures/aws_Vase_01.png\n'}
+[12.833862] (-) TimerEvent: {}
+[12.846322] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_collision.DAE\n'}
+[12.868770] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_visual.DAE\n'}
+[12.892268] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/model.config\n'}
+[12.914884] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/model.sdf\n'}
+[12.934084] (-) TimerEvent: {}
+[12.937778] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/materials/textures/aws_Wardrobe_01.png\n'}
+[12.960462] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_collision.DAE\n'}
+[12.984968] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_visual.DAE\n'}
+[13.009691] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/model.config\n'}
+[13.033753] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/model.sdf\n'}
+[13.034218] (-) TimerEvent: {}
+[13.057080] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/box_bot/urdf/box_bot_description.urdf\n'}
+[13.081111] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/package_run_dependencies/robile_gazebo\n'}
+[13.081977] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/parent_prefix_path/robile_gazebo\n'}
+[13.082558] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.sh\n'}
+[13.082942] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.dsv\n'}
+[13.083384] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/path.sh\n'}
+[13.083914] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/path.dsv\n'}
+[13.084482] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.bash\n'}
+[13.084919] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.sh\n'}
+[13.085429] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.zsh\n'}
+[13.085904] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.dsv\n'}
+[13.086272] (robile_gazebo) StdoutLine: {'line': b'-- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.dsv\n'}
+[13.109955] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/packages/robile_gazebo\n'}
+[13.110374] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[13.110970] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig.cmake\n'}
+[13.111338] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig-version.cmake\n'}
+[13.112134] (robile_gazebo) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.xml\n'}
+[13.119186] (robile_gazebo) CommandEnded: {'returncode': 0}
+[13.134440] (-) TimerEvent: {}
+[13.197079] (robile_gazebo) JobEnded: {'identifier': 'robile_gazebo', 'rc': 0}
+[13.199728] (-) EventReactorShutdown: {}

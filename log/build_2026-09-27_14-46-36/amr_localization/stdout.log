@@ -1,0 +1,49 @@
+running develop
+Removing /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr-localization.egg-link (link to .)
+running egg_info
+writing ../../build/amr_localization/amr_localization.egg-info/PKG-INFO
+writing dependency_links to ../../build/amr_localization/amr_localization.egg-info/dependency_links.txt
+writing entry points to ../../build/amr_localization/amr_localization.egg-info/entry_points.txt
+writing requirements to ../../build/amr_localization/amr_localization.egg-info/requires.txt
+writing top-level names to ../../build/amr_localization/amr_localization.egg-info/top_level.txt
+reading manifest file '../../build/amr_localization/amr_localization.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/amr_localization/amr_localization.egg-info/SOURCES.txt'
+running build
+running build_py
+copying amr_localization/ggwp.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization
+copying amr_localization/lo.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization
+copying amr_localization/particle_filter_node_backup.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization
+copying amr_localization/import math.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization
+copying amr_localization/particle_filter_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization
+running install
+running install_lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/ggwp.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/lo.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/ggwp copy.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/particle_filter_node_backup.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/import math.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/particle_filter_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/_2ndggwp.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/ggwp.py to ggwp.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/lo.py to lo.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/ggwp copy.py to ggwp copy.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/particle_filter_node_backup.py to particle_filter_node_backup.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/import math.py to import math.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/particle_filter_node.py to particle_filter_node.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/_2ndggwp.py to _2ndggwp.cpython-310.pyc
+running install_data
+copying resource/amr_localization -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/ament_index/resource_index/packages
+copying package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization
+copying launch/map_server.launch.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/launch
+running install_egg_info
+Copying ../../build/amr_localization/amr_localization.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization-0.0.0-py3.10.egg-info
+running install_scripts
+Installing gg script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+Installing ggwp script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+Installing lo script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+Installing particle_filter_node script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/install.log'

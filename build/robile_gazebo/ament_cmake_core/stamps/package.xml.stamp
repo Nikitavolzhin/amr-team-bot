@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>robile_gazebo</name>
+    <version>1.0.0</version>
+    <description>Gazebo simulations for KELO ROBILE robots</description>
+
+    <maintainer email="nowak@locomotec.com">Walter Nowak</maintainer>
+    <maintainer email="blumenthal@locomotec.com">Sebastian Blumenthal</maintainer>
+
+    <license>LGPL2.1/BSD</license>
+
+    <author email="sushant.chavan@locomotec.com">Sushant Chavan</author>
+    <author email="dharmin.bakaraniya@locomotec.com">Dharmin B.</author>
+
+    <buildtool_depend>ament_cmake</buildtool_depend>
+    <depend>launch</depend>
+    <depend>launch_ros</depend>
+
+    <depend>robile_description</depend>
+    <depend>robot_state_publisher</depend>
+    <depend>joint_state_publisher</depend>
+    <depend>xacro</depend>
+    <depend>gazebo_ros_pkgs</depend>
+    <depend>geometry_msgs</depend>
+    <depend>nav_msgs</depend>
+    <depend>rclcpp</depend>
+    <depend>sensor_msgs</depend>
+    <depend>tf2</depend>
+    <depend>rviz</depend>
+    <export>
+      <build_type>ament_cmake</build_type>
+    </export>
+
+
+</package>

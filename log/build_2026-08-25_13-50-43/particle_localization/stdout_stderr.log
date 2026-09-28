@@ -1,0 +1,26 @@
+running develop
+running egg_info
+creating particle_localization.egg-info
+writing particle_localization.egg-info/PKG-INFO
+writing dependency_links to particle_localization.egg-info/dependency_links.txt
+writing entry points to particle_localization.egg-info/entry_points.txt
+writing requirements to particle_localization.egg-info/requires.txt
+writing top-level names to particle_localization.egg-info/top_level.txt
+writing manifest file 'particle_localization.egg-info/SOURCES.txt'
+reading manifest file 'particle_localization.egg-info/SOURCES.txt'
+writing manifest file 'particle_localization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages/particle-localization.egg-link (link to .)
+Installing particle_filter script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/particle_localization
+
+Installed /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization
+running symlink_data
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/ament_index
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/ament_index/resource_index
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/ament_index/resource_index/packages
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/resource/particle_localization -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/ament_index/resource_index/packages
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/launch
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/launch/particle_localization.launch.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/launch
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/config
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/config/particle_filter.yaml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/config

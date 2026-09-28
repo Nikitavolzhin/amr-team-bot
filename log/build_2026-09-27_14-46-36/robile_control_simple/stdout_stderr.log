@@ -1,0 +1,32 @@
+running develop
+Removing /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile-control-simple.egg-link (link to .)
+running egg_info
+writing ../../../../build/robile_control_simple/robile_control_simple.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/robile_control_simple/robile_control_simple.egg-info/dependency_links.txt
+writing entry points to ../../../../build/robile_control_simple/robile_control_simple.egg-info/entry_points.txt
+writing requirements to ../../../../build/robile_control_simple/robile_control_simple.egg-info/requires.txt
+writing top-level names to ../../../../build/robile_control_simple/robile_control_simple.egg-info/top_level.txt
+reading manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple
+copying robile_control_simple/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple
+copying robile_control_simple/robile_control_simple.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple
+running install
+running install_lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple/robile_control_simple.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple/robile_control_simple.py to robile_control_simple.cpython-310.pyc
+running install_data
+copying resource/robile_control_simple -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/ament_index/resource_index/packages
+copying package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple
+running install_egg_info
+Copying ../../../../build/robile_control_simple/robile_control_simple.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple-0.0.0-py3.10.egg-info
+running install_scripts
+Installing circular_motion_publisher script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/robile_control_simple
+writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/install.log'

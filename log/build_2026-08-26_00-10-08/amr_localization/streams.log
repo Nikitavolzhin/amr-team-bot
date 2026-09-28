@@ -1,0 +1,47 @@
+[1.790s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build
+[2.653s] running develop
+[3.148s] Removing /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr-localization.egg-link (link to .)
+[3.213s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build
+[3.217s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/amr_localization': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_localization build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/install.log --install-scripts $base/lib/amr_localization --single-version-externally-managed install_data --force
+[3.949s] running egg_info
+[3.951s] writing ../../build/amr_localization/amr_localization.egg-info/PKG-INFO
+[3.952s] writing dependency_links to ../../build/amr_localization/amr_localization.egg-info/dependency_links.txt
+[3.953s] writing entry points to ../../build/amr_localization/amr_localization.egg-info/entry_points.txt
+[3.953s] writing requirements to ../../build/amr_localization/amr_localization.egg-info/requires.txt
+[3.953s] writing top-level names to ../../build/amr_localization/amr_localization.egg-info/top_level.txt
+[3.959s] reading manifest file '../../build/amr_localization/amr_localization.egg-info/SOURCES.txt'
+[3.959s] adding license file 'LICENSE'
+[3.961s] writing manifest file '../../build/amr_localization/amr_localization.egg-info/SOURCES.txt'
+[3.961s] running build
+[3.961s] running build_py
+[3.962s] copying amr_localization/lo.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization
+[3.963s] running install
+[3.964s] running install_lib
+[3.966s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+[3.967s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/ggwp.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+[3.967s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+[3.967s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/lo.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+[3.967s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/ggwp copy.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+[3.968s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/particle_filter_node_backup.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+[3.968s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/particle_filter_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+[3.968s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build/lib/amr_localization/_2ndggwp.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization
+[3.969s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/ggwp.py to ggwp.cpython-310.pyc
+[3.981s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/__init__.py to __init__.cpython-310.pyc
+[3.981s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/lo.py to lo.cpython-310.pyc
+[3.994s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/ggwp copy.py to ggwp copy.cpython-310.pyc
+[4.000s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/particle_filter_node_backup.py to particle_filter_node_backup.cpython-310.pyc
+[4.002s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/particle_filter_node.py to particle_filter_node.cpython-310.pyc
+[4.004s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization/_2ndggwp.py to _2ndggwp.cpython-310.pyc
+[4.011s] running install_data
+[4.011s] copying resource/amr_localization -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/ament_index/resource_index/packages
+[4.011s] copying package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization
+[4.012s] copying launch/map_server.launch.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/launch
+[4.012s] running install_egg_info
+[4.018s] Copying ../../build/amr_localization/amr_localization.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr_localization-0.0.0-py3.10.egg-info
+[4.020s] running install_scripts
+[4.072s] Installing gg script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+[4.072s] Installing ggwp script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+[4.073s] Installing lo script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+[4.073s] Installing particle_filter_node script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+[4.074s] writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/install.log'
+[4.128s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/amr_localization' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_localization build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/install.log --install-scripts $base/lib/amr_localization --single-version-externally-managed install_data --force

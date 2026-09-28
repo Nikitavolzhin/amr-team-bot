@@ -1,0 +1,36 @@
+[6.190s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build
+[7.189s] running develop
+[8.041s] Removing /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile-control-simple.egg-link (link to .)
+[8.155s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build
+[8.159s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_control_simple': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/install.log --install-scripts $base/lib/robile_control_simple --single-version-externally-managed install_data --force
+[9.039s] running egg_info
+[9.041s] writing ../../../../build/robile_control_simple/robile_control_simple.egg-info/PKG-INFO
+[9.045s] writing dependency_links to ../../../../build/robile_control_simple/robile_control_simple.egg-info/dependency_links.txt
+[9.045s] writing entry points to ../../../../build/robile_control_simple/robile_control_simple.egg-info/entry_points.txt
+[9.046s] writing requirements to ../../../../build/robile_control_simple/robile_control_simple.egg-info/requires.txt
+[9.046s] writing top-level names to ../../../../build/robile_control_simple/robile_control_simple.egg-info/top_level.txt
+[9.050s] reading manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+[9.051s] writing manifest file '../../../../build/robile_control_simple/robile_control_simple.egg-info/SOURCES.txt'
+[9.052s] running build
+[9.052s] running build_py
+[9.052s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build
+[9.053s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib
+[9.053s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple
+[9.053s] copying robile_control_simple/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple
+[9.056s] copying robile_control_simple/robile_control_simple.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple
+[9.057s] running install
+[9.057s] running install_lib
+[9.057s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple
+[9.057s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple
+[9.058s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build/lib/robile_control_simple/robile_control_simple.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple
+[9.058s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple/__init__.py to __init__.cpython-310.pyc
+[9.059s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple/robile_control_simple.py to robile_control_simple.cpython-310.pyc
+[9.063s] running install_data
+[9.063s] copying resource/robile_control_simple -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/ament_index/resource_index/packages
+[9.063s] copying package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple
+[9.063s] running install_egg_info
+[9.069s] Copying ../../../../build/robile_control_simple/robile_control_simple.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages/robile_control_simple-0.0.0-py3.10.egg-info
+[9.072s] running install_scripts
+[9.128s] Installing circular_motion_publisher script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/robile_control_simple
+[9.129s] writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/install.log'
+[9.186s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_control_simple' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/install.log --install-scripts $base/lib/robile_control_simple --single-version-externally-managed install_data --force

@@ -1,0 +1,7 @@
+{
+  "package_name": "robile_interfaces",
+  "non_idl_tuples": [
+    "/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_interfaces:msg/PositionLabelled.msg",
+    "/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_interfaces:msg/PositionLabelledArray.msg"
+  ]
+}

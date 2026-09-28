@@ -1,0 +1,113 @@
+[0.026s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_gazebo -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo
+[0.056s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.424s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.443s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.557s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.566s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.589s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.626s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.671s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.810s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.817s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.185s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.365s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.366s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.366s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.366s]   problems in calling code that expects `find_package` result variables
+[1.366s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.366s] Call Stack (most recent call first):
+[1.366s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.366s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.367s]   CMakeLists.txt:16 (find_package)
+[1.367s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.367s] [0m
+[1.435s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.517s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.523s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.544s] -- Searching for dependencies of ignition-math6
+[1.550s] -- Looking for OGRE...
+[1.567s] -- Found Ogre Ghadamon (1.9.0)
+[1.568s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.602s] -- Looking for OGRE_Paging...
+[1.602s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.602s] -- Looking for OGRE_Terrain...
+[1.603s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.603s] -- Looking for OGRE_Property...
+[1.603s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.603s] -- Looking for OGRE_RTShaderSystem...
+[1.604s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.604s] -- Looking for OGRE_Volume...
+[1.604s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.604s] -- Looking for OGRE_Overlay...
+[1.605s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[2.031s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.035s] -- Looking for ignition-transport8 -- found version 8.2.1
+[2.036s] -- Searching for dependencies of ignition-transport8
+[2.083s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.110s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.121s] -- Checking for module 'libzmq >= 4'
+[2.154s] --   Found libzmq , version 4.3.4
+[2.250s] -- Checking for module 'uuid'
+[2.280s] --   Found uuid, version 2.37.2
+[2.355s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.356s] -- Searching for dependencies of ignition-msgs5
+[2.405s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.419s] -- Checking for module 'tinyxml2'
+[2.451s] --   Found tinyxml2, version 9.0.0
+[2.528s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.530s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.531s] -- Searching for dependencies of ignition-common3
+[2.532s] -- Looking for dlfcn.h - found
+[2.532s] -- Looking for libdl - found
+[2.559s] -- Searching for <ignition-common3> component [graphics]
+[2.561s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.562s] -- Searching for dependencies of ignition-common3-graphics
+[2.563s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.567s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.568s] -- Searching for dependencies of ignition-fuel_tools4
+[2.665s] -- Checking for module 'jsoncpp'
+[2.696s] --   Found jsoncpp, version 1.9.5
+[2.792s] -- Checking for module 'libzip'
+[2.824s] --   Found libzip, version 1.7.3
+[2.904s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.905s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.906s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.914s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[2.917s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.966s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.021s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.074s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[3.372s] -- Configuring done
+[3.388s] -- Generating done
+[3.398s] -- Build files have been written to: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo
+[3.426s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_gazebo -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo
+[3.430s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo -- -j8 -l8
+[3.527s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo -- -j8 -l8
+[3.533s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo
+[3.549s] -- Install configuration: ""
+[3.550s] -- Execute custom install script
+[3.551s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/doxygen/Doxyfile.in
+[3.551s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile.rviz
+[3.552s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_foxy_nav.rviz
+[3.552s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_rolling.rviz
+[3.553s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch (copy).py
+[3.553s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch.py
+[3.554s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//worlds/closed_walls.world
+[3.555s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//worlds/potential_field_gazebo.world
+[3.555s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/package_run_dependencies/robile_gazebo
+[3.555s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/parent_prefix_path/robile_gazebo
+[3.556s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.sh
+[3.556s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.dsv
+[3.557s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/path.sh
+[3.557s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/path.dsv
+[3.557s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.bash
+[3.558s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.sh
+[3.558s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.zsh
+[3.559s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.dsv
+[3.559s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.dsv
+[3.581s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/packages/robile_gazebo
+[3.581s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.581s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig.cmake
+[3.581s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig-version.cmake
+[3.582s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.xml
+[3.589s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo

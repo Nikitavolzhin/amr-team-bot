@@ -1,0 +1,20 @@
+[2.352s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build --no-deps symlink_data
+[3.022s] running develop
+[3.476s] running egg_info
+[3.477s] writing amr_localization.egg-info/PKG-INFO
+[3.477s] writing dependency_links to amr_localization.egg-info/dependency_links.txt
+[3.478s] writing entry points to amr_localization.egg-info/entry_points.txt
+[3.478s] writing requirements to amr_localization.egg-info/requires.txt
+[3.478s] writing top-level names to amr_localization.egg-info/top_level.txt
+[3.482s] reading manifest file 'amr_localization.egg-info/SOURCES.txt'
+[3.484s] writing manifest file 'amr_localization.egg-info/SOURCES.txt'
+[3.488s] running build_ext
+[3.488s] Creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr-localization.egg-link (link to .)
+[3.490s] Installing gg script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+[3.490s] Installing ggwp script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+[3.491s] Installing lo script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+[3.491s] Installing particle_filter_node script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+[3.492s] 
+[3.492s] Installed /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization
+[3.492s] running symlink_data
+[3.550s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build --no-deps symlink_data

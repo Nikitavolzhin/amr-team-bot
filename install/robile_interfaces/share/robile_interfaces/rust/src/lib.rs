@@ -1,0 +1,1 @@
+/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces/rosidl_generator_rs/robile_interfaces/rust/src/lib.rs

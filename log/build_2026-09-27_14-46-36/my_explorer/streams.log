@@ -1,0 +1,39 @@
+[8.106s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build
+[10.261s] running develop
+[11.345s] Removing /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my-explorer.egg-link (link to .)
+[11.570s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build
+[11.571s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/my_explorer': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_explorer build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/install.log --install-scripts $base/lib/my_explorer --single-version-externally-managed install_data --force
+[13.656s] running egg_info
+[13.661s] writing ../../build/my_explorer/my_explorer.egg-info/PKG-INFO
+[13.662s] writing dependency_links to ../../build/my_explorer/my_explorer.egg-info/dependency_links.txt
+[13.663s] writing entry points to ../../build/my_explorer/my_explorer.egg-info/entry_points.txt
+[13.663s] writing requirements to ../../build/my_explorer/my_explorer.egg-info/requires.txt
+[13.663s] writing top-level names to ../../build/my_explorer/my_explorer.egg-info/top_level.txt
+[13.671s] reading manifest file '../../build/my_explorer/my_explorer.egg-info/SOURCES.txt'
+[13.683s] writing manifest file '../../build/my_explorer/my_explorer.egg-info/SOURCES.txt'
+[13.683s] running build
+[13.683s] running build_py
+[13.683s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build
+[13.684s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib
+[13.684s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer
+[13.684s] copying my_explorer/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer
+[13.684s] copying my_explorer/explore_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer
+[13.690s] copying my_explorer/setup.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer
+[13.690s] running install
+[13.691s] running install_lib
+[13.698s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer
+[13.699s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer
+[13.701s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer/explore_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer
+[13.704s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build/lib/my_explorer/setup.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer
+[13.706s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer/__init__.py to __init__.cpython-310.pyc
+[13.708s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer/explore_node.py to explore_node.cpython-310.pyc
+[13.713s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer/setup.py to setup.cpython-310.pyc
+[13.714s] running install_data
+[13.717s] copying resource/my_explorer -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index/packages
+[13.717s] copying package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer
+[13.718s] running install_egg_info
+[13.735s] Copying ../../build/my_explorer/my_explorer.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my_explorer-0.0.0-py3.10.egg-info
+[13.748s] running install_scripts
+[13.883s] Installing explorer_exe script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/my_explorer
+[13.887s] writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/install.log'
+[14.528s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/my_explorer' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_explorer build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/install.log --install-scripts $base/lib/my_explorer --single-version-externally-managed install_data --force

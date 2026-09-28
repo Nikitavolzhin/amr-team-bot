@@ -1,0 +1,484 @@
+[0.041s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo -- -j8 -l8
+[0.111s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.548s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.566s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.644s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.669s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.696s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.730s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.813s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.817s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.093s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.241s] [33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+[1.242s]   The package name passed to `find_package_handle_standard_args` (PkgConfig)
+[1.242s]   does not match the name of the calling package (gazebo).  This can lead to
+[1.242s]   problems in calling code that expects `find_package` result variables
+[1.242s]   (e.g., `_FOUND`) to follow a certain pattern.
+[1.242s] Call Stack (most recent call first):
+[1.242s]   /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+[1.242s]   /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+[1.243s]   CMakeLists.txt:16 (find_package)
+[1.243s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.243s] [0m
+[1.332s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[1.432s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[1.437s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.452s] -- Searching for dependencies of ignition-math6
+[1.458s] -- Looking for OGRE...
+[1.474s] -- Found Ogre Ghadamon (1.9.0)
+[1.475s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[1.500s] -- Looking for OGRE_Paging...
+[1.500s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[1.500s] -- Looking for OGRE_Terrain...
+[1.501s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[1.501s] -- Looking for OGRE_Property...
+[1.502s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[1.503s] -- Looking for OGRE_RTShaderSystem...
+[1.503s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[1.503s] -- Looking for OGRE_Volume...
+[1.503s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[1.503s] -- Looking for OGRE_Overlay...
+[1.504s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[1.991s] -- Looking for ignition-math6 -- found version 6.16.0
+[1.996s] -- Looking for ignition-transport8 -- found version 8.2.1
+[1.997s] -- Searching for dependencies of ignition-transport8
+[2.061s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[2.101s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.114s] -- Checking for module 'libzmq >= 4'
+[2.161s] --   Found libzmq , version 4.3.4
+[2.293s] -- Checking for module 'uuid'
+[2.333s] --   Found uuid, version 2.37.2
+[2.440s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.441s] -- Searching for dependencies of ignition-msgs5
+[2.508s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.526s] -- Checking for module 'tinyxml2'
+[2.567s] --   Found tinyxml2, version 9.0.0
+[2.667s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[2.668s] -- Looking for ignition-common3 -- found version 3.14.0
+[2.670s] -- Searching for dependencies of ignition-common3
+[2.670s] -- Looking for dlfcn.h - found
+[2.671s] -- Looking for libdl - found
+[2.704s] -- Searching for <ignition-common3> component [graphics]
+[2.706s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[2.708s] -- Searching for dependencies of ignition-common3-graphics
+[2.709s] -- Looking for ignition-math6 -- found version 6.16.0
+[2.712s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[2.714s] -- Searching for dependencies of ignition-fuel_tools4
+[2.854s] -- Checking for module 'jsoncpp'
+[2.896s] --   Found jsoncpp, version 1.9.5
+[3.014s] -- Checking for module 'libzip'
+[3.054s] --   Found libzip, version 1.7.3
+[3.155s] -- Looking for ignition-common3 -- found version 3.14.0
+[3.156s] -- Looking for ignition-math6 -- found version 6.16.0
+[3.157s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[3.167s] -- Found gazebo_ros_pkgs: 3.9.0 (/opt/ros/humble/share/gazebo_ros_pkgs/cmake)
+[3.168s] -- Found geometry_msgs: 4.9.2 (/opt/ros/humble/share/geometry_msgs/cmake)
+[3.218s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[3.261s] -- Found sensor_msgs: 4.9.2 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.307s] -- Found tf2: 0.25.22 (/opt/ros/humble/share/tf2/cmake)
+[3.643s] -- Configuring done
+[3.661s] -- Generating done
+[3.671s] -- Build files have been written to: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo
+[3.746s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo -- -j8 -l8
+[3.771s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo
+[3.790s] -- Install configuration: ""
+[3.792s] -- Execute custom install script
+[3.793s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/doxygen/Doxyfile.in
+[3.794s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile.rviz
+[3.794s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_foxy_nav.rviz
+[3.794s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//config/rviz/robile_rolling.rviz
+[3.795s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch (another copy).py
+[3.818s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch (copy).py
+[3.818s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//launch/gazebo_4_wheel.launch.py
+[3.818s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//worlds/closed_walls.world
+[3.819s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//worlds/potential_field_gazebo.world
+[3.819s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//worlds/small_house.world
+[3.833s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/materials/textures/aws_AirconditionerA_01.png
+[3.857s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_collision.DAE
+[3.880s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/meshes/aws_AirconditionerA_01_visual.DAE
+[3.903s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/meshes/aws__Air conditioner_01.DAE
+[3.926s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/model.config
+[3.952s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerA_01/model.sdf
+[3.976s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/materials/textures/aws_AirconditionerB_01.png
+[4.000s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_collision.DAE
+[4.022s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/meshes/aws_AirconditionerB_01_visual.DAE
+[4.046s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/model.config
+[4.069s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_AirconditionerB_01/model.sdf
+[4.092s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/materials/textures/aws_BalconyTable_01.png
+[4.115s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_collision.DAE
+[4.138s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/meshes/aws_BalconyTable_01_visual.DAE
+[4.164s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/model.config
+[4.186s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_BalconyTable_01/model.sdf
+[4.209s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/materials/textures/aws_Ball_01.png
+[4.232s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_collision.DAE
+[4.255s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/meshes/aws_Ball_01_visual.DAE
+[4.277s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/model.config
+[4.302s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Ball_01/model.sdf
+[4.328s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedA_01.png
+[4.353s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedB_01.png
+[4.376s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/materials/textures/aws_BedC_01.png
+[4.399s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/materials/textures/aws_Bed_01.png
+[4.421s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_collision.DAE
+[4.444s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/meshes/aws_Bed_01_visual.DAE
+[4.466s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/model.config
+[4.489s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Bed_01/model.sdf
+[4.511s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/materials/textures/aws_Board_01.png
+[4.533s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_collision.DAE
+[4.557s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/meshes/aws_Board_01_visual.DAE
+[4.581s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/model.config
+[4.606s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Board_01/model.sdf
+[4.633s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/materials/textures/aws_Carpet_01.png
+[4.657s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_collision.DAE
+[4.680s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/meshes/aws_Carpet_01_visual.DAE
+[4.704s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/model.config
+[4.728s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Carpet_01/model.sdf
+[4.751s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/materials/textures/aws_ChairA_01.png
+[4.774s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_collision.DAE
+[4.799s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/meshes/aws_ChairA_01_visual.DAE
+[4.824s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/model.config
+[4.849s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairA_01/model.sdf
+[4.872s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/materials/textures/aws_ChairD_01.png
+[4.894s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_collision.DAE
+[4.916s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/meshes/aws_ChairD_01_visual.DAE
+[4.937s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/model.config
+[4.960s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ChairD_01/model.sdf
+[4.983s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/materials/textures/aws_Chandelier_01.png
+[5.005s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01.DAE
+[5.034s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_collision.DAE
+[5.060s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/meshes/aws_Chandelier_01_visual.DAE
+[5.082s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/model.config
+[5.105s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Chandelier_01/model.sdf
+[5.129s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/materials/textures/aws_CoffeeTable_01.png
+[5.155s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_collision.DAE
+[5.181s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/meshes/aws_CoffeeTable_01_visual.DAE
+[5.205s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/model.config
+[5.230s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CoffeeTable_01/model.sdf
+[5.252s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/materials/textures/aws_CookingBench_01.png
+[5.273s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01.DAE
+[5.295s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_collision.DAE
+[5.319s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/meshes/aws_CookingBench_01_visual.DAE
+[5.342s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/model.config
+[5.364s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_CookingBench_01/model.sdf
+[5.383s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/materials/textures/aws_Curtain_01.png
+[5.405s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_collision.DAE
+[5.431s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/meshes/aws_Curtain_01_visual.DAE
+[5.453s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/model.config
+[5.477s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Curtain_01/model.sdf
+[5.502s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_01.png
+[5.526s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/materials/textures/aws_DeskPortraitA_02.png
+[5.550s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_collision.DAE
+[5.573s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/meshes/aws_DeskPortraitA_01_visual.DAE
+[5.596s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/model.config
+[5.618s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_01/model.sdf
+[5.639s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_01.png
+[5.662s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/materials/textures/aws_DeskPortraitA_02.png
+[5.685s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_collision.DAE
+[5.705s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/meshes/aws_DeskPortraitA_01_visual.DAE
+[5.726s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/model.config
+[5.752s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitA_02/model.sdf
+[5.776s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_01.png
+[5.801s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/materials/textures/aws_DeskPortraitB_02.png
+[5.831s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_collision.DAE
+[5.857s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/meshes/aws_DeskPortraitB_01_visual.DAE
+[5.884s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/model.config
+[5.909s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_01/model.sdf
+[5.935s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_01.png
+[5.967s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/materials/textures/aws_DeskPortraitB_02.png
+[5.999s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_collision.DAE
+[6.044s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/meshes/aws_DeskPortraitB_01_visual.DAE
+[6.080s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/model.config
+[6.111s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitB_02/model.sdf
+[6.144s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_01.png
+[6.174s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/materials/textures/aws_DeskPortraitC_02.png
+[6.208s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_collision.DAE
+[6.241s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/meshes/aws_DeskPortraitC_01_visual.DAE
+[6.278s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/model.config
+[6.310s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_01/model.sdf
+[6.338s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_01.png
+[6.369s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/materials/textures/aws_DeskPortraitC_02.png
+[6.404s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_collision.DAE
+[6.440s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/meshes/aws_DeskPortraitC_01_visual.DAE
+[6.468s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/model.config
+[6.493s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitC_02/model.sdf
+[6.517s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_01.png
+[6.540s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/materials/textures/aws_DeskPortraitD_02.png
+[6.565s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_collision.DAE
+[6.591s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/meshes/aws_DeskPortraitD_01_visual.DAE
+[6.621s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/model.config
+[6.651s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_01/model.sdf
+[6.676s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_01.png
+[6.702s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/materials/textures/aws_DeskPortraitD_02.png
+[6.733s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_collision.DAE
+[6.765s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/meshes/aws_DeskPortraitD_01_visual.DAE
+[6.790s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/model.config
+[6.816s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_02/model.sdf
+[6.841s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_01.png
+[6.865s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/materials/textures/aws_DeskPortraitD_02.png
+[6.890s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_collision.DAE
+[6.918s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/meshes/aws_DeskPortraitD_01_visual.DAE
+[6.942s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/model.config
+[6.975s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_03/model.sdf
+[6.998s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_01.png
+[7.020s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/materials/textures/aws_DeskPortraitD_02.png
+[7.052s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_collision.DAE
+[7.076s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/meshes/aws_DeskPortraitD_01_visual.DAE
+[7.097s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/model.config
+[7.127s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_DeskPortraitD_04/model.sdf
+[7.152s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/materials/textures/aws_Door_01.png
+[7.177s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_collision.DAE
+[7.200s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/meshes/aws_Door_01_visual.DAE
+[7.224s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/model.config
+[7.247s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Door_01/model.sdf
+[7.269s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/materials/textures/aws_Dumbbell_01.png
+[7.291s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_collision.DAE
+[7.318s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/meshes/aws_Dumbbell_01_visual.DAE
+[7.339s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/model.config
+[7.363s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Dumbbell_01/model.sdf
+[7.385s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/materials/textures/aws_FitnessEquipment_01.png
+[7.406s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_collision.DAE
+[7.426s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/meshes/aws_FitnessEquipment_01_visual.DAE
+[7.449s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/model.config
+[7.471s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FitnessEquipment_01/model.sdf
+[7.493s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/materials/textures/aws_FloorB_01.png
+[7.515s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_collision.DAE
+[7.537s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/meshes/aws_FloorB_01_visual.DAE
+[7.561s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/model.config
+[7.584s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FloorB_01/model.sdf
+[7.606s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/materials/textures/aws_FoldingDoor_01.png
+[7.629s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_collision.DAE
+[7.653s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/meshes/aws_FoldingDoor_01_visual.DAE
+[7.677s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/model.config
+[7.702s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_01/model.sdf
+[7.727s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/materials/textures/aws_FoldingDoor_02.png
+[7.751s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_collision.DAE
+[7.775s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/meshes/aws_FoldingDoor_02_visual.DAE
+[7.798s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/model.config
+[7.821s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_FoldingDoor_02/model.sdf
+[7.845s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/materials/textures/aws_Handle_01.png
+[7.875s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/meshes/aws_ handle_01_collision.DAE
+[7.898s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_collision.DAE
+[7.922s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/meshes/aws_Handle_01_visual.DAE
+[7.946s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/model.config
+[7.979s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Handle_01/model.sdf
+[8.005s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/materials/textures/aws_HouseWallB_01.png
+[8.032s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_collision.DAE
+[8.056s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/meshes/aws_HouseWallB_01_visual.DAE
+[8.080s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/model.config
+[8.102s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_HouseWallB_01/model.sdf
+[8.125s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/materials/textures/aws_KitchenCabinet_01.png
+[8.149s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_collision.DAE
+[8.174s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/meshes/aws_KitchenCabinet_01_visual.DAE
+[8.197s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/model.config
+[8.228s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenCabinet_01/model.sdf
+[8.263s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/materials/textures/aws_KitchenTable_01.png
+[8.292s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_collision.DAE
+[8.320s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/meshes/aws_KitchenTable_01_visual.DAE
+[8.341s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/model.config
+[8.362s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenTable_01/model.sdf
+[8.385s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/materials/textures/aws_KitchenUtensils_01.png
+[8.405s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_collision.DAE
+[8.425s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/meshes/aws_KitchenUtensils_01_visual.DAE
+[8.447s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/model.config
+[8.470s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_KitchenUtensils_01/model.sdf
+[8.492s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/materials/textures/aws_LightC_01.png
+[8.514s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_collision.DAE
+[8.535s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/meshes/aws_LightC_01_visual.DAE
+[8.557s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/model.config
+[8.576s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_LightC_01/model.sdf
+[8.598s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/materials/textures/aws_NightStand_01.png
+[8.618s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_collision.DAE
+[8.639s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/meshes/aws_NightStand_01_visual.DAE
+[8.662s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/model.config
+[8.683s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_NightStand_01/model.sdf
+[8.705s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/materials/textures/aws_Pillow_01.png
+[8.730s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_collision.DAE
+[8.752s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/meshes/aws_Pillow_01_visual.DAE
+[8.774s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/model.config
+[8.795s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Pillow_01/model.sdf
+[8.818s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_01.png
+[8.841s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/materials/textures/aws_PortraitA_02.png
+[8.863s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_collision.DAE
+[8.883s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/meshes/aws_PortraitA_01_visual.DAE
+[8.905s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/model.config
+[8.925s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_01/model.sdf
+[8.948s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_01.png
+[8.971s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/materials/textures/aws_PortraitA_02.png
+[8.996s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_collision.DAE
+[9.024s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/meshes/aws_PortraitA_01_visual.DAE
+[9.044s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/model.config
+[9.067s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitA_02/model.sdf
+[9.091s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_01.png
+[9.111s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/materials/textures/aws_PortraitB_02.png
+[9.133s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_collision.DAE
+[9.162s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/meshes/aws_PortraitB_01_visual.DAE
+[9.190s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/model.config
+[9.220s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_01/model.sdf
+[9.252s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_01.png
+[9.285s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/materials/textures/aws_PortraitB_02.png
+[9.316s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_collision.DAE
+[9.348s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/meshes/aws_PortraitB_01_visual.DAE
+[9.377s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/model.config
+[9.405s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_02/model.sdf
+[9.431s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_01.png
+[9.461s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/materials/textures/aws_PortraitB_02.png
+[9.501s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_collision.DAE
+[9.529s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/meshes/aws_PortraitB_01_visual.DAE
+[9.564s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/model.config
+[9.589s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitB_03/model.sdf
+[9.614s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_01.png
+[9.638s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/materials/textures/aws_PortraitC_02.png
+[9.663s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_collision.DAE
+[9.687s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/meshes/aws_PortraitC_01_visual.DAE
+[9.714s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/model.config
+[9.744s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitC_01/model.sdf
+[9.768s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_01.png
+[9.793s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/materials/textures/aws_PortraitD_02.png
+[9.817s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_collision.DAE
+[9.842s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/meshes/aws_PortraitD_01_visual.DAE
+[9.865s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/model.config
+[9.887s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_01/model.sdf
+[9.913s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_01.png
+[9.936s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/materials/textures/aws_PortraitD_02.png
+[9.961s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_collision.DAE
+[9.989s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/meshes/aws_PortraitD_01_visual.DAE
+[10.013s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/model.config
+[10.037s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitD_02/model.sdf
+[10.061s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_01.png
+[10.085s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/materials/textures/aws_PortraitE_02.png
+[10.109s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_collision.DAE
+[10.132s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/meshes/aws_PortraitE_01_visual.DAE
+[10.160s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/model.config
+[10.185s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_01/model.sdf
+[10.212s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_01.png
+[10.235s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/materials/textures/aws_PortraitE_02.png
+[10.261s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_collision.DAE
+[10.287s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/meshes/aws_PortraitE_01_visual.DAE
+[10.316s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/model.config
+[10.371s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_PortraitE_02/model.sdf
+[10.399s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/materials/textures/aws_Quilt_01.png
+[10.434s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_collision.DAE
+[10.466s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/meshes/aws_Quilt_01_visual.DAE
+[10.495s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/model.config
+[10.519s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Quilt_01/model.sdf
+[10.544s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/materials/textures/aws_Rangehood_01.png
+[10.571s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_collision.DAE
+[10.596s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/meshes/aws_Rangehood_01_visual.DAE
+[10.622s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/model.config
+[10.644s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Rangehood_01/model.sdf
+[10.670s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/materials/textures/aws_ReadingDesk_01.png
+[10.696s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_collision.DAE
+[10.722s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/meshes/aws_ReadingDesk_01_visual.DAE
+[10.750s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/model.config
+[10.775s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ReadingDesk_01/model.sdf
+[10.799s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_01.png
+[10.832s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/materials/textures/aws_Refrigerator_02.png
+[10.861s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01.DAE
+[10.891s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_collision.DAE
+[10.916s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/meshes/aws_Refrigerator_01_visual.DAE
+[10.942s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/model.config
+[10.969s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Refrigerator_01/model.sdf
+[10.994s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/materials/textures/aws_RoomCeiling_01.png
+[11.022s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_collision.DAE
+[11.050s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/meshes/aws_RoomCeiling_01_visual.DAE
+[11.077s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/model.config
+[11.112s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomCeiling_01/model.sdf
+[11.143s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/materials/textures/aws_RoomWall_01.png
+[11.170s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_collision.DAE
+[11.193s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/meshes/aws_RoomWall_01_visual.DAE
+[11.217s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/model.config
+[11.240s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWall_01/model.sdf
+[11.266s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/materials/textures/aws_RoomWindow_01.png
+[11.292s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_collision.DAE
+[11.319s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/meshes/aws_RoomWindow_01_visual.DAE
+[11.347s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/model.config
+[11.372s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_RoomWindow_01/model.sdf
+[11.397s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/materials/textures/aws_SeasoningBox_01.png
+[11.421s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_collision.DAE
+[11.443s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/meshes/aws_SeasoningBox_01_visual.DAE
+[11.468s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/model.config
+[11.490s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SeasoningBox_01/model.sdf
+[11.519s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/materials/textures/aws_SecurityCamera_01.png
+[11.541s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_collision.DAE
+[11.564s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/meshes/aws_SecurityCamera_01_visual.DAE
+[11.588s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/model.config
+[11.609s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SecurityCamera_01/model.sdf
+[11.632s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/materials/textures/aws_ShoeRack_01.png
+[11.656s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_collision.DAE
+[11.682s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/meshes/aws_ShoeRack_01_visual.DAE
+[11.703s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/model.config
+[11.728s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_ShoeRack_01/model.sdf
+[11.750s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/materials/textures/aws_SofaB_01.png
+[11.773s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_collision.DAE
+[11.796s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/meshes/aws_SofaB_01_visual.DAE
+[11.818s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/model.config
+[11.840s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaB_01/model.sdf
+[11.863s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/materials/textures/aws_SofaC_01.png
+[11.885s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_collision.DAE
+[11.905s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/meshes/aws_SofaC_01_visual.DAE
+[11.927s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/model.config
+[11.949s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_SofaC_01/model.sdf
+[11.972s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/materials/textures/aws_Sofa_01.png
+[11.999s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01.DAE
+[12.025s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_collision.DAE
+[12.050s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/meshes/aws_Sofa_01_visual.DAE
+[12.080s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/model.config
+[12.109s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Sofa_01/model.sdf
+[12.135s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/materials/textures/aws_TVCabinet_01.png
+[12.165s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_collision.DAE
+[12.193s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/meshes/aws_TVCabinet_01_visual.DAE
+[12.217s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/model.config
+[12.242s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TVCabinet_01/model.sdf
+[12.265s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/materials/textures/aws_TV_01.png
+[12.288s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_collision.DAE
+[12.307s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/meshes/aws_TV_01_visual.DAE
+[12.328s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/model.config
+[12.351s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_01/model.sdf
+[12.373s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/materials/textures/aws_TV_01.png
+[12.395s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_collision.DAE
+[12.416s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/meshes/aws_TV_01_visual.DAE
+[12.439s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/model.config
+[12.464s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_TV_02/model.sdf
+[12.488s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/materials/textures/aws_Tablet_01_nologo.png
+[12.509s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_collision.DAE
+[12.529s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/meshes/aws_Tablet_01_visual.DAE
+[12.554s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/model.config
+[12.577s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tablet_01/model.sdf
+[12.600s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/materials/textures/aws_Tableware_01.png
+[12.622s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_collision.DAE
+[12.643s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/meshes/aws_Tableware_01_visual.DAE
+[12.665s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/model.config
+[12.687s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Tableware_01/model.sdf
+[12.709s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/materials/textures/aws_Trash_01.png
+[12.732s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_collision.DAE
+[12.755s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/meshes/aws_Trash_01_visual.DAE
+[12.778s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/model.config
+[12.799s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Trash_01/model.sdf
+[12.821s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/materials/textures/aws_Vase_01.png
+[12.844s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_collision.DAE
+[12.866s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/meshes/aws_Vase_01_visual.DAE
+[12.890s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/model.config
+[12.913s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Vase_01/model.sdf
+[12.935s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/materials/textures/aws_Wardrobe_01.png
+[12.958s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_collision.DAE
+[12.983s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/meshes/aws_Wardrobe_01_visual.DAE
+[13.007s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/model.config
+[13.031s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/aws_robomaker_residential_Wardrobe_01/model.sdf
+[13.055s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo//models/box_bot/urdf/box_bot_description.urdf
+[13.079s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/package_run_dependencies/robile_gazebo
+[13.080s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/parent_prefix_path/robile_gazebo
+[13.080s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.sh
+[13.080s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/ament_prefix_path.dsv
+[13.081s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/path.sh
+[13.081s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/environment/path.dsv
+[13.082s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.bash
+[13.082s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.sh
+[13.083s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.zsh
+[13.083s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/local_setup.dsv
+[13.084s] -- Symlinking: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.dsv
+[13.108s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/ament_index/resource_index/packages/robile_gazebo
+[13.108s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.108s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig.cmake
+[13.109s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/cmake/robile_gazeboConfig-version.cmake
+[13.110s] -- Up-to-date symlink: /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.xml
+[13.118s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo' returned '0': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo

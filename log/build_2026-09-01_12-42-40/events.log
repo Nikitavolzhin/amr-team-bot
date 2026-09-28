@@ -1,0 +1,80 @@
+[0.000000] (-) TimerEvent: {}
+[0.000959] (-) JobUnselected: {'identifier': 'my_explorer'}
+[0.001242] (-) JobUnselected: {'identifier': 'particle_localization'}
+[0.001682] (-) JobUnselected: {'identifier': 'potential'}
+[0.001751] (-) JobUnselected: {'identifier': 'robile_bringup'}
+[0.002158] (-) JobUnselected: {'identifier': 'robile_control_simple'}
+[0.002398] (-) JobUnselected: {'identifier': 'robile_description'}
+[0.002467] (-) JobUnselected: {'identifier': 'robile_gazebo'}
+[0.002512] (-) JobUnselected: {'identifier': 'robile_interfaces'}
+[0.002553] (-) JobUnselected: {'identifier': 'robile_navigation'}
+[0.002589] (-) JobUnselected: {'identifier': 'robile_reach_goal'}
+[0.002644] (-) JobUnselected: {'identifier': 'wavefront'}
+[0.002728] (amr_localization) JobQueued: {'identifier': 'amr_localization', 'dependencies': OrderedDict()}
+[0.002794] (amr_localization) JobStarted: {'identifier': 'amr_localization'}
+[0.099533] (-) TimerEvent: {}
+[0.200584] (-) TimerEvent: {}
+[0.301770] (-) TimerEvent: {}
+[0.402422] (-) TimerEvent: {}
+[0.503861] (-) TimerEvent: {}
+[0.604327] (-) TimerEvent: {}
+[0.704828] (-) TimerEvent: {}
+[0.805323] (-) TimerEvent: {}
+[0.905838] (-) TimerEvent: {}
+[1.006435] (-) TimerEvent: {}
+[1.107002] (-) TimerEvent: {}
+[1.207626] (-) TimerEvent: {}
+[1.308863] (-) TimerEvent: {}
+[1.410004] (-) TimerEvent: {}
+[1.510717] (-) TimerEvent: {}
+[1.611320] (-) TimerEvent: {}
+[1.711785] (-) TimerEvent: {}
+[1.812309] (-) TimerEvent: {}
+[1.912937] (-) TimerEvent: {}
+[2.013433] (-) TimerEvent: {}
+[2.113975] (-) TimerEvent: {}
+[2.214529] (-) TimerEvent: {}
+[2.315088] (-) TimerEvent: {}
+[2.415540] (-) TimerEvent: {}
+[2.516002] (-) TimerEvent: {}
+[2.616525] (-) TimerEvent: {}
+[2.717000] (-) TimerEvent: {}
+[2.817475] (-) TimerEvent: {}
+[2.892829] (amr_localization) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ashraful', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ashraful/.mujoco/mujoco-3.9.0/lib:/home/ashraful/.mujoco/mujoco-3.9.0/lib', 'HOME': '/home/ashraful', 'OLDPWD': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '2868', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ashraful', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ashraful', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ashraful/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ashraful/.mujoco/mujoco-3.9.0/bin', 'SESSION_MANAGER': 'local/ashraful:@/tmp/.ICE-unix/1673,unix/ashraful:/tmp/.ICE-unix/1673', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/dd470759_e1f9_40c9_8ea0_b5c40d307528', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.N2WTU3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.111', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/wavefront:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation/local/lib/python3.10/dist-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/local/lib/python3.10/dist-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description'}, 'shell': False}
+[2.917646] (-) TimerEvent: {}
+[3.018349] (-) TimerEvent: {}
+[3.118810] (-) TimerEvent: {}
+[3.219293] (-) TimerEvent: {}
+[3.319732] (-) TimerEvent: {}
+[3.420195] (-) TimerEvent: {}
+[3.520740] (-) TimerEvent: {}
+[3.621290] (-) TimerEvent: {}
+[3.721826] (-) TimerEvent: {}
+[3.746429] (amr_localization) StdoutLine: {'line': b'running develop\n'}
+[3.822006] (-) TimerEvent: {}
+[3.922584] (-) TimerEvent: {}
+[4.023084] (-) TimerEvent: {}
+[4.123526] (-) TimerEvent: {}
+[4.224006] (-) TimerEvent: {}
+[4.322940] (amr_localization) StdoutLine: {'line': b'running egg_info\n'}
+[4.323590] (amr_localization) StdoutLine: {'line': b'writing amr_localization.egg-info/PKG-INFO\n'}
+[4.324109] (amr_localization) StdoutLine: {'line': b'writing dependency_links to amr_localization.egg-info/dependency_links.txt\n'}
+[4.324362] (-) TimerEvent: {}
+[4.324683] (amr_localization) StdoutLine: {'line': b'writing entry points to amr_localization.egg-info/entry_points.txt\n'}
+[4.325115] (amr_localization) StdoutLine: {'line': b'writing requirements to amr_localization.egg-info/requires.txt\n'}
+[4.325531] (amr_localization) StdoutLine: {'line': b'writing top-level names to amr_localization.egg-info/top_level.txt\n'}
+[4.330430] (amr_localization) StdoutLine: {'line': b"reading manifest file 'amr_localization.egg-info/SOURCES.txt'\n"}
+[4.333009] (amr_localization) StdoutLine: {'line': b"writing manifest file 'amr_localization.egg-info/SOURCES.txt'\n"}
+[4.337015] (amr_localization) StdoutLine: {'line': b'running build_ext\n'}
+[4.337483] (amr_localization) StdoutLine: {'line': b'Creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr-localization.egg-link (link to .)\n'}
+[4.339621] (amr_localization) StdoutLine: {'line': b'Installing gg script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization\n'}
+[4.340055] (amr_localization) StdoutLine: {'line': b'Installing ggwp script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization\n'}
+[4.340348] (amr_localization) StdoutLine: {'line': b'Installing lo script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization\n'}
+[4.340550] (amr_localization) StdoutLine: {'line': b'Installing particle_filter_node script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization\n'}
+[4.340985] (amr_localization) StdoutLine: {'line': b'\n'}
+[4.341434] (amr_localization) StdoutLine: {'line': b'Installed /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization\n'}
+[4.341618] (amr_localization) StdoutLine: {'line': b'running symlink_data\n'}
+[4.409824] (amr_localization) CommandEnded: {'returncode': 0}
+[4.424657] (-) TimerEvent: {}
+[4.443507] (amr_localization) JobEnded: {'identifier': 'amr_localization', 'rc': 0}
+[4.445410] (-) EventReactorShutdown: {}

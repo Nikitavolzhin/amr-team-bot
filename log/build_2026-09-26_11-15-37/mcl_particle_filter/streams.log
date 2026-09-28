@@ -1,0 +1,21 @@
+[1.754s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mcl_particle_filter build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/install.log --install-scripts $base/lib/mcl_particle_filter --single-version-externally-managed install_data
+[2.354s] running egg_info
+[2.355s] writing ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/PKG-INFO
+[2.355s] writing dependency_links to ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/dependency_links.txt
+[2.356s] writing entry points to ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/entry_points.txt
+[2.356s] writing requirements to ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/requires.txt
+[2.356s] writing top-level names to ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/top_level.txt
+[2.360s] reading manifest file '../../build/mcl_particle_filter/mcl_particle_filter.egg-info/SOURCES.txt'
+[2.361s] writing manifest file '../../build/mcl_particle_filter/mcl_particle_filter.egg-info/SOURCES.txt'
+[2.363s] running build
+[2.363s] running build_py
+[2.363s] running install
+[2.363s] running install_lib
+[2.365s] running install_data
+[2.365s] running install_egg_info
+[2.370s] removing '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages/mcl_particle_filter-0.0.0-py3.10.egg-info' (and everything under it)
+[2.370s] Copying ../../build/mcl_particle_filter/mcl_particle_filter.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages/mcl_particle_filter-0.0.0-py3.10.egg-info
+[2.371s] running install_scripts
+[2.413s] Installing particle_filter script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/mcl_particle_filter
+[2.414s] writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/install.log'
+[2.455s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mcl_particle_filter build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/install.log --install-scripts $base/lib/mcl_particle_filter --single-version-externally-managed install_data

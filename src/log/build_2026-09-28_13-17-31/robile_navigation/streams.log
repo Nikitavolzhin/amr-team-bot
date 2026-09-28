@@ -1,0 +1,65 @@
+[0.021s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/build/robile_navigation': /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/install/robile_navigation
+[0.165s] -- The C compiler identification is GNU 11.4.0
+[0.292s] -- The CXX compiler identification is GNU 11.4.0
+[0.307s] -- Detecting C compiler ABI info
+[0.430s] -- Detecting C compiler ABI info - done
+[0.445s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.445s] -- Detecting C compile features
+[0.446s] -- Detecting C compile features - done
+[0.452s] -- Detecting CXX compiler ABI info
+[0.597s] -- Detecting CXX compiler ABI info - done
+[0.611s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.612s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.620s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.970s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.183s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[1.290s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.302s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.324s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.397s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.511s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.518s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.699s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.763s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.857s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.879s] -- Looking for pthread.h
+[2.018s] -- Looking for pthread.h - found
+[2.018s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.152s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.154s] -- Found Threads: TRUE  
+[2.288s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[2.292s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.356s] -- Found robile_interfaces: 0.0.0 (/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/cmake)
+[2.394s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.566s] Error parsing '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation/package.xml':
+[2.648s] Traceback (most recent call last):
+[2.649s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[2.649s]     main()
+[2.649s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[2.649s]     raise e
+[2.649s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[2.649s]     package = parse_package_string(
+[2.649s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[2.652s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[2.652s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation/package.xml':
+[2.652s] Error(s):
+[2.652s] - The generic dependency on 'rclpy' is redundant with: build_depend, build_export_depend, exec_depend
+[2.652s] - The generic dependency on 'sensor_msgs' is redundant with: exec_depend
+[2.652s] - The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+[2.684s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[2.684s]   execute_process(/usr/bin/python3
+[2.684s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[2.684s]   /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation/package.xml
+[2.685s]   /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/build/robile_navigation/ament_cmake_core/package.cmake)
+[2.685s]   returned error code 1
+[2.685s] Call Stack (most recent call first):
+[2.685s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.685s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[2.685s]   CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)
+[2.685s] 
+[2.685s] [0m
+[2.685s] -- Configuring incomplete, errors occurred!
+[2.685s] See also "/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/build/robile_navigation/CMakeFiles/CMakeOutput.log".
+[2.702s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/build/robile_navigation' returned '1': /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/install/robile_navigation

@@ -1,0 +1,15 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from robile_interfaces/msg/PositionLabelled.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module robile_interfaces {
+  module msg {
+    struct PositionLabelled {
+      string name;
+
+      geometry_msgs::msg::Point position;
+    };
+  };
+};

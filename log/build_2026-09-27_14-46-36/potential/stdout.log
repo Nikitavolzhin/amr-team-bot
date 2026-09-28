@@ -1,0 +1,33 @@
+running develop
+Removing /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages/potential.egg-link (link to .)
+running egg_info
+writing ../../build/potential/potential.egg-info/PKG-INFO
+writing dependency_links to ../../build/potential/potential.egg-info/dependency_links.txt
+writing entry points to ../../build/potential/potential.egg-info/entry_points.txt
+writing requirements to ../../build/potential/potential.egg-info/requires.txt
+writing top-level names to ../../build/potential/potential.egg-info/top_level.txt
+reading manifest file '../../build/potential/potential.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/potential/potential.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build/lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build/lib/potential
+copying potential/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build/lib/potential
+copying potential/potential.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build/lib/potential
+running install
+running install_lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages/potential
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build/lib/potential/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages/potential
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build/lib/potential/potential.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages/potential
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages/potential/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages/potential/potential.py to potential.cpython-310.pyc
+running install_data
+copying resource/potential -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/ament_index/resource_index/packages
+copying package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential
+running install_egg_info
+Copying ../../build/potential/potential.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages/potential-0.0.0-py3.10.egg-info
+running install_scripts
+Installing potential script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/potential
+writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/install.log'

@@ -1,0 +1,26 @@
+[2.567s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/build --no-deps symlink_data
+[3.417s] running develop
+[3.942s] running egg_info
+[3.942s] creating particle_localization.egg-info
+[3.942s] writing particle_localization.egg-info/PKG-INFO
+[3.943s] writing dependency_links to particle_localization.egg-info/dependency_links.txt
+[3.943s] writing entry points to particle_localization.egg-info/entry_points.txt
+[3.943s] writing requirements to particle_localization.egg-info/requires.txt
+[3.944s] writing top-level names to particle_localization.egg-info/top_level.txt
+[3.944s] writing manifest file 'particle_localization.egg-info/SOURCES.txt'
+[3.948s] reading manifest file 'particle_localization.egg-info/SOURCES.txt'
+[3.950s] writing manifest file 'particle_localization.egg-info/SOURCES.txt'
+[3.953s] running build_ext
+[3.953s] Creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages/particle-localization.egg-link (link to .)
+[3.955s] Installing particle_filter script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/particle_localization
+[3.956s] 
+[3.956s] Installed /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization
+[3.956s] running symlink_data
+[3.957s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/ament_index
+[3.957s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/ament_index/resource_index
+[3.957s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/ament_index/resource_index/packages
+[3.957s] symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/resource/particle_localization -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/ament_index/resource_index/packages
+[3.958s] symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization
+[3.958s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/config
+[3.958s] symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/config/particle_filter.yaml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/config
+[4.031s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/build --no-deps symlink_data

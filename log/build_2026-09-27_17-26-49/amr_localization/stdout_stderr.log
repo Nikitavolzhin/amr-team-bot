@@ -1,0 +1,21 @@
+running develop
+running egg_info
+writing amr_localization.egg-info/PKG-INFO
+writing dependency_links to amr_localization.egg-info/dependency_links.txt
+writing entry points to amr_localization.egg-info/entry_points.txt
+writing requirements to amr_localization.egg-info/requires.txt
+writing top-level names to amr_localization.egg-info/top_level.txt
+reading manifest file 'amr_localization.egg-info/SOURCES.txt'
+writing manifest file 'amr_localization.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages/amr-localization.egg-link (link to .)
+Installing gg script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+Installing ggwp script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+Installing lo script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+Installing particle_filter_node script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/amr_localization
+
+Installed /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization
+running symlink_data
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/resource/amr_localization -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/ament_index/resource_index/packages
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/launch/map_server.launch.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/launch

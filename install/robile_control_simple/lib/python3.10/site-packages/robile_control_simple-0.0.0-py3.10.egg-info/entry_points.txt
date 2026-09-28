@@ -1,0 +1,3 @@
+[console_scripts]
+circular_motion_publisher = robile_control_simple.robile_control_simple:main
+
