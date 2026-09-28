@@ -31,7 +31,7 @@ class ParticleFilter(Node):
     def __init__(self):
         super().__init__("mcl_particle_filter")
 
-      # we can update the parameters 
+      # we can update the parameters as per our need
         self.N = 200
         self.motion_noise = [0.02, 0.02, 0.02]
 
