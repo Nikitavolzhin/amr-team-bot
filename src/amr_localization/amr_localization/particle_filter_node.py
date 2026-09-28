@@ -31,7 +31,7 @@ class ParticleFilter(Node):
     def __init__(self):
         super().__init__("mcl_particle_filter")
 
-        # Simple MCL settings
+      # we can update the parameters 
         self.N = 200
         self.motion_noise = [0.02, 0.02, 0.02]
 
@@ -48,7 +48,7 @@ class ParticleFilter(Node):
         self.min_distance = 0.03
         self.min_angle = 0.03
 
-        # Map
+
         self.map = None
         self.free_cells = None
         self.distance_map = None
@@ -59,13 +59,13 @@ class ParticleFilter(Node):
         self.width = None
         self.height = None
 
-        # Robot and particles
+
         self.particles = None
         self.odom = None
         self.last_odom = None
         self.moved = False
 
-        # Publishers
+  
         self.pose_pub = self.create_publisher(
             PoseWithCovarianceStamped,
             "/particle_filter_pose",
@@ -78,14 +78,14 @@ class ParticleFilter(Node):
             10
         )
 
-        # Map needs transient-local QoS
+ 
         map_qos = QoSProfile(
             depth=1,
             reliability=ReliabilityPolicy.RELIABLE,
             durability=DurabilityPolicy.TRANSIENT_LOCAL
         )
 
-        # Subscribers
+
         self.create_subscription(
             OccupancyGrid, "/map",
             self.map_callback, map_qos
@@ -101,7 +101,7 @@ class ParticleFilter(Node):
             self.scan_callback, 10
         )
 
-        # Optional RViz initial pose
+
         self.create_subscription(
             PoseWithCovarianceStamped, "/initialpose",
             self.initial_pose_callback, 10
@@ -112,9 +112,6 @@ class ParticleFilter(Node):
 
         self.get_logger().info("Simple MCL started.")
 
-    # -----------------------------------------------------
-    # MAP
-    # -----------------------------------------------------
 
     def map_callback(self, msg):
         self.map = np.array(msg.data).reshape(
@@ -162,9 +159,6 @@ class ParticleFilter(Node):
             2.0
         )
 
-    # -----------------------------------------------------
-    # INITIAL PARTICLES
-    # -----------------------------------------------------
 
     def initialize_particles(self):
         self.particles = np.zeros((self.N, 4))
@@ -192,9 +186,7 @@ class ParticleFilter(Node):
 
         self.particles[:, 3] = 1.0 / self.N
 
-    # -----------------------------------------------------
-    # OPTIONAL RVIZ INITIAL POSE
-    # -----------------------------------------------------
+
 
     def initial_pose_callback(self, msg):
         if self.particles is None:
@@ -224,9 +216,6 @@ class ParticleFilter(Node):
         self.moved = False
         self.get_logger().info("Initial pose set.")
 
-    # -----------------------------------------------------
-    # MOTION MODEL
-    # -----------------------------------------------------
 
     def odom_callback(self, msg):
         if self.particles is None:
@@ -260,14 +249,13 @@ class ParticleFilter(Node):
         ):
             return
 
-        # Odometry movement in the old robot frame
         c = math.cos(old_yaw)
         s = math.sin(old_yaw)
 
         dx = c * dx + s * dy
         dy = -s * dx + c * dy
 
-        # Add motion noise
+       
         dx += np.random.normal(
             0, self.motion_noise[0], self.N
         )
@@ -297,9 +285,7 @@ class ParticleFilter(Node):
         self.last_odom = current
         self.moved = True
 
-    # -----------------------------------------------------
-    # SENSOR MODEL
-    # -----------------------------------------------------
+
 
     def scan_callback(self, msg):
         if (
@@ -348,7 +334,7 @@ class ParticleFilter(Node):
         weights /= total
         self.particles[:, 3] = weights
 
-        # Effective particle number
+    
         ess = 1.0 / np.sum(weights ** 2)
 
         if ess < self.resample_threshold * self.N:
@@ -437,9 +423,6 @@ class ParticleFilter(Node):
             log_weights - np.max(log_weights)
         )
 
-    # -----------------------------------------------------
-    # RESAMPLING
-    # -----------------------------------------------------
 
     def resample(self):
         weights = self.particles[:, 3]
@@ -454,7 +437,6 @@ class ParticleFilter(Node):
             self.particles[indexes].copy()
         )
 
-        # Small noise keeps particles spread out.
         self.particles[:, 0] += np.random.normal(
             0, 0.03, self.N
         )
@@ -467,10 +449,6 @@ class ParticleFilter(Node):
         )
 
         self.particles[:, 3] = 1.0 / self.N
-
-    # -----------------------------------------------------
-    # POSE + TF
-    # -----------------------------------------------------
 
     def estimate_pose(self):
         weights = self.particles[:, 3]
