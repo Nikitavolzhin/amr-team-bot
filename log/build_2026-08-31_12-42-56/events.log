@@ -1,0 +1,67 @@
+[0.000000] (-) TimerEvent: {}
+[0.000760] (-) JobUnselected: {'identifier': 'amr_localization'}
+[0.001537] (-) JobUnselected: {'identifier': 'particle_localization'}
+[0.001634] (-) JobUnselected: {'identifier': 'potential'}
+[0.001676] (-) JobUnselected: {'identifier': 'robile_bringup'}
+[0.001864] (-) JobUnselected: {'identifier': 'robile_control_simple'}
+[0.001898] (-) JobUnselected: {'identifier': 'robile_description'}
+[0.001944] (-) JobUnselected: {'identifier': 'robile_gazebo'}
+[0.001980] (-) JobUnselected: {'identifier': 'robile_interfaces'}
+[0.002021] (-) JobUnselected: {'identifier': 'robile_navigation'}
+[0.002056] (-) JobUnselected: {'identifier': 'robile_reach_goal'}
+[0.002101] (-) JobUnselected: {'identifier': 'wavefront'}
+[0.002141] (my_explorer) JobQueued: {'identifier': 'my_explorer', 'dependencies': OrderedDict()}
+[0.002186] (my_explorer) JobStarted: {'identifier': 'my_explorer'}
+[0.099554] (-) TimerEvent: {}
+[0.200060] (-) TimerEvent: {}
+[0.300670] (-) TimerEvent: {}
+[0.401248] (-) TimerEvent: {}
+[0.501842] (-) TimerEvent: {}
+[0.602340] (-) TimerEvent: {}
+[0.702876] (-) TimerEvent: {}
+[0.803286] (-) TimerEvent: {}
+[0.903747] (-) TimerEvent: {}
+[1.004217] (-) TimerEvent: {}
+[1.104716] (-) TimerEvent: {}
+[1.205138] (-) TimerEvent: {}
+[1.305551] (-) TimerEvent: {}
+[1.406055] (-) TimerEvent: {}
+[1.506621] (-) TimerEvent: {}
+[1.607201] (-) TimerEvent: {}
+[1.707925] (-) TimerEvent: {}
+[1.803385] (my_explorer) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build', '--no-deps', 'symlink_data'], 'cwd': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ashraful', 'LC_TIME': 'de_DE.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/home/ashraful/.mujoco/mujoco-3.9.0/lib:/home/ashraful/.mujoco/mujoco-3.9.0/lib', 'HOME': '/home/ashraful', 'OLDPWD': '/home/ashraful', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'de_DE.UTF-8', 'SYSTEMD_EXEC_PID': '7595', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'LOGNAME': 'ashraful', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'ashraful', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/home/ashraful/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/ashraful/.mujoco/mujoco-3.9.0/bin', 'SESSION_MANAGER': 'local/ashraful:@/tmp/.ICE-unix/1657,unix/ashraful:/tmp/.ICE-unix/1657', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'de_DE.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/0137ece6_8916_48b4_a3bc_6236fbd9686f', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'de_DE.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SZK6U3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.160', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'de_DE.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'de_DE.UTF-8', 'LC_IDENTIFICATION': 'de_DE.UTF-8', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'de_DE.UTF-8', 'LC_PAPER': 'de_DE.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[1.808371] (-) TimerEvent: {}
+[1.908825] (-) TimerEvent: {}
+[2.009329] (-) TimerEvent: {}
+[2.109792] (-) TimerEvent: {}
+[2.210288] (-) TimerEvent: {}
+[2.310737] (-) TimerEvent: {}
+[2.357387] (my_explorer) StdoutLine: {'line': b'running develop\n'}
+[2.410855] (-) TimerEvent: {}
+[2.511296] (-) TimerEvent: {}
+[2.611766] (-) TimerEvent: {}
+[2.712211] (-) TimerEvent: {}
+[2.717553] (my_explorer) StdoutLine: {'line': b'running egg_info\n'}
+[2.717848] (my_explorer) StdoutLine: {'line': b'creating my_explorer.egg-info\n'}
+[2.718082] (my_explorer) StdoutLine: {'line': b'writing my_explorer.egg-info/PKG-INFO\n'}
+[2.718460] (my_explorer) StdoutLine: {'line': b'writing dependency_links to my_explorer.egg-info/dependency_links.txt\n'}
+[2.718760] (my_explorer) StdoutLine: {'line': b'writing entry points to my_explorer.egg-info/entry_points.txt\n'}
+[2.718987] (my_explorer) StdoutLine: {'line': b'writing requirements to my_explorer.egg-info/requires.txt\n'}
+[2.719099] (my_explorer) StdoutLine: {'line': b'writing top-level names to my_explorer.egg-info/top_level.txt\n'}
+[2.719289] (my_explorer) StdoutLine: {'line': b"writing manifest file 'my_explorer.egg-info/SOURCES.txt'\n"}
+[2.722564] (my_explorer) StdoutLine: {'line': b"reading manifest file 'my_explorer.egg-info/SOURCES.txt'\n"}
+[2.723793] (my_explorer) StdoutLine: {'line': b"writing manifest file 'my_explorer.egg-info/SOURCES.txt'\n"}
+[2.726815] (my_explorer) StdoutLine: {'line': b'running build_ext\n'}
+[2.727305] (my_explorer) StdoutLine: {'line': b'Creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my-explorer.egg-link (link to .)\n'}
+[2.729233] (my_explorer) StdoutLine: {'line': b'Installing explorer_exe script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/my_explorer\n'}
+[2.729629] (my_explorer) StdoutLine: {'line': b'\n'}
+[2.729855] (my_explorer) StdoutLine: {'line': b'Installed /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer\n'}
+[2.730179] (my_explorer) StdoutLine: {'line': b'running symlink_data\n'}
+[2.730362] (my_explorer) StdoutLine: {'line': b'creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index\n'}
+[2.730544] (my_explorer) StdoutLine: {'line': b'creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index\n'}
+[2.730810] (my_explorer) StdoutLine: {'line': b'creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index/packages\n'}
+[2.730988] (my_explorer) StdoutLine: {'line': b'symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/resource/my_explorer -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index/packages\n'}
+[2.731168] (my_explorer) StdoutLine: {'line': b'symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer\n'}
+[2.780885] (my_explorer) CommandEnded: {'returncode': 0}
+[2.802755] (my_explorer) JobEnded: {'identifier': 'my_explorer', 'rc': 0}
+[2.803733] (-) EventReactorShutdown: {}

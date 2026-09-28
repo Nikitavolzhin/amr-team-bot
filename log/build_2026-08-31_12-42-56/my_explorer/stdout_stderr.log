@@ -1,0 +1,22 @@
+running develop
+running egg_info
+creating my_explorer.egg-info
+writing my_explorer.egg-info/PKG-INFO
+writing dependency_links to my_explorer.egg-info/dependency_links.txt
+writing entry points to my_explorer.egg-info/entry_points.txt
+writing requirements to my_explorer.egg-info/requires.txt
+writing top-level names to my_explorer.egg-info/top_level.txt
+writing manifest file 'my_explorer.egg-info/SOURCES.txt'
+reading manifest file 'my_explorer.egg-info/SOURCES.txt'
+writing manifest file 'my_explorer.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my-explorer.egg-link (link to .)
+Installing explorer_exe script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/my_explorer
+
+Installed /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer
+running symlink_data
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index/packages
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/resource/my_explorer -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index/packages
+symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer

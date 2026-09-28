@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<package format="2">
+  <name>robile_description</name>
+  <version>1.0.0</version>
+  <description>Robot descriptions for the KELO ROBILE in form of URDF files and meshes</description>
+
+  <maintainer email="nowak@locomotec.com">Walter Nowak</maintainer>
+  <maintainer email="blumenthal@locomotec.com">Sebastian Blumenthal</maintainer>
+
+  <license>LGPL2.1/BSD</license>
+
+  <author email="sushant.chavan@locomotec.com">Sushant Chavan</author>
+  <author email="dharmin.bakaraniya@locomotec.com">Dharmin B.</author>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>joint_state_publisher</exec_depend>
+  <exec_depend>joint_state_publisher_gui</exec_depend>
+  <exec_depend>robot_state_publisher</exec_depend>
+  <exec_depend>rviz2</exec_depend>
+  <exec_depend>xacro</exec_depend>	
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

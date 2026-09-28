@@ -1,3 +1,6 @@
+import os
+from glob import glob
+
 from setuptools import find_packages, setup
 
 
@@ -17,6 +20,10 @@ setup(
             "share/" + package_name,
             ["package.xml"],
         ),
+        (
+            os.path.join("share", package_name, "launch"),
+            glob("launch/*.py"),
+        ),
     ],
     install_requires=["setuptools"],
     zip_safe=True,
@@ -30,10 +37,10 @@ setup(
     tests_require=["pytest"],
     entry_points={
         "console_scripts": [
-            (
-                "particle_filter_node = "
-                "amr_localization.particle_filter_node:main"
-            ),
+            "particle_filter_node = amr_localization.particle_filter_node:main",
+            "gg = amr_localization.gg:main",
+            "lo = amr_localization.lo:main",
+            "ggwp = amr_localization.ggwp:main",
         ],
     },
 )

@@ -1,0 +1,4 @@
+source;share/robile_interfaces/local_setup.bash
+source;share/robile_interfaces/local_setup.dsv
+source;share/robile_interfaces/local_setup.sh
+source;share/robile_interfaces/local_setup.zsh

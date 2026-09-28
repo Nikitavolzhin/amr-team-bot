@@ -1,0 +1,24 @@
+[1.806s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build --no-deps symlink_data
+[2.355s] running develop
+[2.716s] running egg_info
+[2.716s] creating my_explorer.egg-info
+[2.716s] writing my_explorer.egg-info/PKG-INFO
+[2.716s] writing dependency_links to my_explorer.egg-info/dependency_links.txt
+[2.717s] writing entry points to my_explorer.egg-info/entry_points.txt
+[2.717s] writing requirements to my_explorer.egg-info/requires.txt
+[2.717s] writing top-level names to my_explorer.egg-info/top_level.txt
+[2.717s] writing manifest file 'my_explorer.egg-info/SOURCES.txt'
+[2.721s] reading manifest file 'my_explorer.egg-info/SOURCES.txt'
+[2.722s] writing manifest file 'my_explorer.egg-info/SOURCES.txt'
+[2.725s] running build_ext
+[2.725s] Creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages/my-explorer.egg-link (link to .)
+[2.727s] Installing explorer_exe script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/my_explorer
+[2.728s] 
+[2.728s] Installed /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer
+[2.728s] running symlink_data
+[2.728s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index
+[2.729s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index
+[2.729s] creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index/packages
+[2.729s] symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/resource/my_explorer -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/ament_index/resource_index/packages
+[2.729s] symbolically linking /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer
+[2.780s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build --no-deps symlink_data

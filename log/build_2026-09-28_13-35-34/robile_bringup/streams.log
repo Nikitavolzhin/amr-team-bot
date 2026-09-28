@@ -1,0 +1,20 @@
+[3.786s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_bringup': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/install.log --install-scripts $base/lib/robile_bringup --single-version-externally-managed install_data
+[4.696s] running egg_info
+[4.699s] writing ../../../build/robile_bringup/robile_bringup.egg-info/PKG-INFO
+[4.699s] writing dependency_links to ../../../build/robile_bringup/robile_bringup.egg-info/dependency_links.txt
+[4.700s] writing entry points to ../../../build/robile_bringup/robile_bringup.egg-info/entry_points.txt
+[4.700s] writing requirements to ../../../build/robile_bringup/robile_bringup.egg-info/requires.txt
+[4.700s] writing top-level names to ../../../build/robile_bringup/robile_bringup.egg-info/top_level.txt
+[4.709s] reading manifest file '../../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[4.713s] writing manifest file '../../../build/robile_bringup/robile_bringup.egg-info/SOURCES.txt'
+[4.713s] running build
+[4.714s] running build_py
+[4.715s] running install
+[4.715s] running install_lib
+[4.720s] running install_data
+[4.720s] running install_egg_info
+[4.727s] removing '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info' (and everything under it)
+[4.727s] Copying ../../../build/robile_bringup/robile_bringup.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages/robile_bringup-0.0.0-py3.10.egg-info
+[4.729s] running install_scripts
+[4.786s] writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/install.log'
+[4.836s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_bringup' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/install.log --install-scripts $base/lib/robile_bringup --single-version-externally-managed install_data

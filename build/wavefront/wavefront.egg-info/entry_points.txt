@@ -1,0 +1,3 @@
+[console_scripts]
+wave = wavefront.wave:main
+

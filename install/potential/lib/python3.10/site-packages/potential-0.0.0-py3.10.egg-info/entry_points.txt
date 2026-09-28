@@ -1,0 +1,3 @@
+[console_scripts]
+potential = potential.potential:main
+

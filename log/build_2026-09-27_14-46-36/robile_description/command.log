@@ -1,0 +1,4 @@
+Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description -- -j8 -l8
+Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description -- -j8 -l8
+Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description
+Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description

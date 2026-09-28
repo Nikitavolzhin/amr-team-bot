@@ -1,0 +1,24 @@
+[1.403s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mcl_particle_filter build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/install.log --install-scripts $base/lib/mcl_particle_filter --single-version-externally-managed install_data
+[1.938s] running egg_info
+[1.939s] writing ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/PKG-INFO
+[1.940s] writing dependency_links to ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/dependency_links.txt
+[1.940s] writing entry points to ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/entry_points.txt
+[1.940s] writing requirements to ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/requires.txt
+[1.941s] writing top-level names to ../../build/mcl_particle_filter/mcl_particle_filter.egg-info/top_level.txt
+[1.944s] reading manifest file '../../build/mcl_particle_filter/mcl_particle_filter.egg-info/SOURCES.txt'
+[1.946s] writing manifest file '../../build/mcl_particle_filter/mcl_particle_filter.egg-info/SOURCES.txt'
+[1.946s] running build
+[1.947s] running build_py
+[1.947s] copying mcl_particle_filter/mcl_particle_filter_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/build/lib/mcl_particle_filter
+[1.947s] running install
+[1.948s] running install_lib
+[1.950s] copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/build/lib/mcl_particle_filter/mcl_particle_filter_node.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages/mcl_particle_filter
+[1.951s] byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages/mcl_particle_filter/mcl_particle_filter_node.py to mcl_particle_filter_node.cpython-310.pyc
+[1.953s] running install_data
+[1.953s] running install_egg_info
+[1.957s] removing '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages/mcl_particle_filter-0.0.0-py3.10.egg-info' (and everything under it)
+[1.957s] Copying ../../build/mcl_particle_filter/mcl_particle_filter.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages/mcl_particle_filter-0.0.0-py3.10.egg-info
+[1.958s] running install_scripts
+[1.999s] Installing particle_filter script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/mcl_particle_filter
+[1.999s] writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/install.log'
+[2.038s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mcl_particle_filter build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/install.log --install-scripts $base/lib/mcl_particle_filter --single-version-externally-managed install_data

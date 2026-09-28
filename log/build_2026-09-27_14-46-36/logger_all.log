@@ -1,0 +1,936 @@
+[0.245s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.245s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7646a4a7b340>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7646a4a7ae00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7646a4a7ae00>>)
+[0.713s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.714s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.784s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['ignore', 'ignore_ament_install']
+[0.785s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'ignore'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'ignore_ament_install'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['colcon_pkg']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'colcon_pkg'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['colcon_meta']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'colcon_meta'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['ros']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'ros'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['cmake', 'python']
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'cmake'
+[0.786s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'python'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extensions ['python_setup_py']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures) by extension 'python_setup_py'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extensions ['ignore', 'ignore_ament_install']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extension 'ignore'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extension 'ignore_ament_install'
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extensions ['colcon_pkg']
+[0.787s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extension 'colcon_pkg'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extensions ['colcon_meta']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extension 'colcon_meta'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extensions ['ros']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extension 'ros'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extensions ['cmake', 'python']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extension 'cmake'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extension 'python'
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extensions ['python_setup_py']
+[0.788s] Level 1:colcon.colcon_core.package_identification:_identify(Pictures/Particle) by extension 'python_setup_py'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.789s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ignore', 'ignore_ament_install']
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore'
+[0.790s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ignore_ament_install'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_pkg']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_pkg'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['colcon_meta']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'colcon_meta'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['ros']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'ros'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['cmake', 'python']
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'cmake'
+[0.791s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extensions ['python_setup_py']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(maps) by extension 'python_setup_py'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.792s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.793s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['ignore', 'ignore_ament_install']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ignore'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ignore_ament_install'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['colcon_pkg']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'colcon_pkg'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['colcon_meta']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'colcon_meta'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['ros']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'ros'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['cmake', 'python']
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'cmake'
+[0.794s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'python'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extensions ['python_setup_py']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile) by extension 'python_setup_py'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) by extension 'ignore'
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/docs) ignored
+[0.795s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ignore'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ignore_ament_install'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['colcon_pkg']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'colcon_pkg'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['colcon_meta']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'colcon_meta'
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extensions ['ros']
+[0.796s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_bringup) by extension 'ros'
+[0.802s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_bringup' with type 'ros.ament_python' and name 'robile_bringup'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['ignore', 'ignore_ament_install']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ignore'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ignore_ament_install'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['colcon_pkg']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'colcon_pkg'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['colcon_meta']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'colcon_meta'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['ros']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'ros'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['cmake', 'python']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'cmake'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'python'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extensions ['python_setup_py']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos) by extension 'python_setup_py'
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['ignore', 'ignore_ament_install']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ignore_ament_install'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_pkg']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'colcon_pkg'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['colcon_meta']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'colcon_meta'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extensions ['ros']
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_control_simple) by extension 'ros'
+[0.806s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_demos/robile_control_simple' with type 'ros.ament_python' and name 'robile_control_simple'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['ignore', 'ignore_ament_install']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ignore'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ignore_ament_install'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_pkg']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_pkg'
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['colcon_meta']
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'colcon_meta'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extensions ['ros']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/robile_demos/robile_reach_goal) by extension 'ros'
+[0.809s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Robile/robile_demos/robile_reach_goal' with type 'ros.ament_python' and name 'robile_reach_goal'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ignore_ament_install'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['ros']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'ros'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['cmake', 'python']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'cmake'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'python'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extensions ['python_setup_py']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets) by extension 'python_setup_py'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['ignore', 'ignore_ament_install']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ignore'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ignore_ament_install'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['colcon_pkg']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'colcon_pkg'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['colcon_meta']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'colcon_meta'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['ros']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'ros'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['cmake', 'python']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'cmake'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'python'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extensions ['python_setup_py']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/bitmaps) by extension 'python_setup_py'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['ignore', 'ignore_ament_install']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['colcon_pkg']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'colcon_pkg'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['colcon_meta']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'colcon_meta'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['ros']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'ros'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['cmake', 'python']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'cmake'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'python'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extensions ['python_setup_py']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet01) by extension 'python_setup_py'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['ignore', 'ignore_ament_install']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ignore'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ignore_ament_install'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['ros']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'ros'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['cmake', 'python']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'cmake'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'python'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extensions ['python_setup_py']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/Robile/worksheets/worksheet02) by extension 'python_setup_py'
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.815s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extension 'ignore'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extension 'ignore_ament_install'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extensions ['colcon_pkg']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extension 'colcon_pkg'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extensions ['colcon_meta']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extension 'colcon_meta'
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extensions ['ros']
+[0.816s] Level 1:colcon.colcon_core.package_identification:_identify(src/amr_localization) by extension 'ros'
+[0.818s] DEBUG:colcon.colcon_core.package_identification:Package 'src/amr_localization' with type 'ros.ament_python' and name 'amr_localization'
+[0.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extensions ['ignore', 'ignore_ament_install']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extension 'ignore'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extension 'ignore_ament_install'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extensions ['colcon_pkg']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extension 'colcon_pkg'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extensions ['colcon_meta']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extension 'colcon_meta'
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extensions ['ros']
+[0.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/aws-robomaker-small-house-world) by extension 'ros'
+[0.821s] DEBUG:colcon.colcon_core.package_identification:Package 'src/aws-robomaker-small-house-world' with type 'ros.ament_cmake' and name 'aws_robomaker_small_house_world'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extension 'ignore'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extension 'ignore_ament_install'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extensions ['colcon_pkg']
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extension 'colcon_pkg'
+[0.821s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extensions ['colcon_meta']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extension 'colcon_meta'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extensions ['ros']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/mcl_particle_filter) by extension 'ros'
+[0.823s] DEBUG:colcon.colcon_core.package_identification:Package 'src/mcl_particle_filter' with type 'ros.ament_python' and name 'mcl_particle_filter'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extensions ['ignore', 'ignore_ament_install']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extension 'ignore_ament_install'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extensions ['colcon_pkg']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extension 'colcon_pkg'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extensions ['colcon_meta']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extension 'colcon_meta'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extensions ['ros']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/my_explorer) by extension 'ros'
+[0.826s] DEBUG:colcon.colcon_core.package_identification:Package 'src/my_explorer' with type 'ros.ament_python' and name 'my_explorer'
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extensions ['ignore', 'ignore_ament_install']
+[0.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extension 'ignore'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extension 'ignore_ament_install'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extensions ['colcon_pkg']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extension 'colcon_pkg'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extensions ['colcon_meta']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extension 'colcon_meta'
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extensions ['ros']
+[0.827s] Level 1:colcon.colcon_core.package_identification:_identify(src/particle_localization) by extension 'ros'
+[0.830s] DEBUG:colcon.colcon_core.package_identification:Package 'src/particle_localization' with type 'ros.ament_python' and name 'particle_localization'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extensions ['ignore', 'ignore_ament_install']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extension 'ignore'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extension 'ignore_ament_install'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extensions ['colcon_pkg']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extension 'colcon_pkg'
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extensions ['colcon_meta']
+[0.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extension 'colcon_meta'
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extensions ['ros']
+[0.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/potential) by extension 'ros'
+[0.834s] DEBUG:colcon.colcon_core.package_identification:Package 'src/potential' with type 'ros.ament_python' and name 'potential'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['ignore', 'ignore_ament_install']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ignore'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ignore_ament_install'
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['colcon_pkg']
+[0.834s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'colcon_pkg'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['colcon_meta']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'colcon_meta'
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extensions ['ros']
+[0.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_description) by extension 'ros'
+[0.836s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_description' with type 'ros.ament_cmake' and name 'robile_description'
+[0.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ignore'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ignore_ament_install'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['colcon_pkg']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'colcon_pkg'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['colcon_meta']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'colcon_meta'
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extensions ['ros']
+[0.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_gazebo) by extension 'ros'
+[0.840s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_gazebo' with type 'ros.ament_cmake' and name 'robile_gazebo'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ignore'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ignore_ament_install'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['colcon_pkg']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'colcon_pkg'
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['colcon_meta']
+[0.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'colcon_meta'
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extensions ['ros']
+[0.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_interfaces) by extension 'ros'
+[0.843s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_interfaces' with type 'ros.ament_cmake' and name 'robile_interfaces'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ignore'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ignore_ament_install'
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['colcon_pkg']
+[0.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'colcon_pkg'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['colcon_meta']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'colcon_meta'
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['ros']
+[0.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'ros'
+[0.848s] DEBUG:colcon.colcon_core.package_identification:Found ROS schema reference in package manifest in 'src/robile_navigation'
+[0.848s] WARNING:colcon.colcon_core.package_identification:Failed to parse ROS package manifest in 'src/robile_navigation': Error(s) in package 'src/robile_navigation/package.xml':
+Error(s):
+- The generic dependency on 'rclpy' is redundant with: build_depend, build_export_depend, exec_depend
+- The generic dependency on 'sensor_msgs' is redundant with: exec_depend
+- The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extensions ['cmake', 'python']
+[0.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'cmake'
+[0.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/robile_navigation) by extension 'python'
+[0.851s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robile_navigation' with type 'cmake' and name 'robile_navigation'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extensions ['ignore', 'ignore_ament_install']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extension 'ignore'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extension 'ignore_ament_install'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extensions ['colcon_pkg']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extension 'colcon_pkg'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extensions ['colcon_meta']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extension 'colcon_meta'
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extensions ['ros']
+[0.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/wavefront) by extension 'ros'
+[0.854s] DEBUG:colcon.colcon_core.package_identification:Package 'src/wavefront' with type 'ros.ament_python' and name 'wavefront'
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.854s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.907s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.913s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 353 installed packages in /opt/ros/humble
+[0.917s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'cmake_target' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'cmake_clean_first' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'cmake_force_configure' from command line to 'False'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'ament_cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[1.015s] Level 5:colcon.colcon_core.verb:set package 'amr_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.015s] DEBUG:colcon.colcon_core.verb:Building package 'amr_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/amr_localization', 'symlink_install': False, 'test_result_base': None}
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_target' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_clean_cache' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_clean_first' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'cmake_force_configure' from command line to 'False'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'ament_cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'catkin_cmake_args' from command line to 'None'
+[1.016s] Level 5:colcon.colcon_core.verb:set package 'aws_robomaker_small_house_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.016s] DEBUG:colcon.colcon_core.verb:Building package 'aws_robomaker_small_house_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/aws-robomaker-small-house-world', 'symlink_install': False, 'test_result_base': None}
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'cmake_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'cmake_target' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'cmake_clean_first' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'cmake_force_configure' from command line to 'False'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'ament_cmake_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[1.017s] Level 5:colcon.colcon_core.verb:set package 'mcl_particle_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.017s] DEBUG:colcon.colcon_core.verb:Building package 'mcl_particle_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter', 'symlink_install': False, 'test_result_base': None}
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'cmake_args' from command line to 'None'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'cmake_target' from command line to 'None'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'cmake_clean_cache' from command line to 'False'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'cmake_clean_first' from command line to 'False'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'cmake_force_configure' from command line to 'False'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'ament_cmake_args' from command line to 'None'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'catkin_cmake_args' from command line to 'None'
+[1.018s] Level 5:colcon.colcon_core.verb:set package 'my_explorer' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.018s] DEBUG:colcon.colcon_core.verb:Building package 'my_explorer' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/my_explorer', 'symlink_install': False, 'test_result_base': None}
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'cmake_args' from command line to 'None'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'cmake_target' from command line to 'None'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'cmake_clean_cache' from command line to 'False'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'cmake_clean_first' from command line to 'False'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'cmake_force_configure' from command line to 'False'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'ament_cmake_args' from command line to 'None'
+[1.019s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'catkin_cmake_args' from command line to 'None'
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'particle_localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.020s] DEBUG:colcon.colcon_core.verb:Building package 'particle_localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/particle_localization', 'symlink_install': False, 'test_result_base': None}
+[1.020s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'cmake_args' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'cmake_target' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'cmake_clean_cache' from command line to 'False'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'cmake_clean_first' from command line to 'False'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'cmake_force_configure' from command line to 'False'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'ament_cmake_args' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'catkin_cmake_args' from command line to 'None'
+[1.021s] Level 5:colcon.colcon_core.verb:set package 'potential' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.021s] DEBUG:colcon.colcon_core.verb:Building package 'potential' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/potential', 'symlink_install': False, 'test_result_base': None}
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_target' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[1.022s] Level 5:colcon.colcon_core.verb:set package 'robile_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.022s] DEBUG:colcon.colcon_core.verb:Building package 'robile_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_bringup', 'symlink_install': False, 'test_result_base': None}
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_target' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_clean_cache' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_clean_first' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'cmake_force_configure' from command line to 'False'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'ament_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'catkin_cmake_args' from command line to 'None'
+[1.023s] Level 5:colcon.colcon_core.verb:set package 'robile_control_simple' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.023s] DEBUG:colcon.colcon_core.verb:Building package 'robile_control_simple' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_control_simple', 'symlink_install': False, 'test_result_base': None}
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_target' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_clean_cache' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_clean_first' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'cmake_force_configure' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'ament_cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'catkin_cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'robile_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.024s] DEBUG:colcon.colcon_core.verb:Building package 'robile_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_description', 'symlink_install': False, 'test_result_base': None}
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_args' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_target' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.026s] DEBUG:colcon.colcon_core.verb:Building package 'robile_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_interfaces', 'symlink_install': False, 'test_result_base': None}
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_target' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_clean_cache' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_clean_first' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'cmake_force_configure' from command line to 'False'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'ament_cmake_args' from command line to 'None'
+[1.026s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'catkin_cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'robile_reach_goal' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.027s] DEBUG:colcon.colcon_core.verb:Building package 'robile_reach_goal' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_reach_goal', 'symlink_install': False, 'test_result_base': None}
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'cmake_args' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'cmake_target' from command line to 'None'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'cmake_clean_cache' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'cmake_clean_first' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'cmake_force_configure' from command line to 'False'
+[1.027s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'ament_cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'catkin_cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'wavefront' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.028s] DEBUG:colcon.colcon_core.verb:Building package 'wavefront' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/wavefront', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/wavefront', 'symlink_install': False, 'test_result_base': None}
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_args' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_target' from command line to 'None'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.028s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'robile_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.029s] DEBUG:colcon.colcon_core.verb:Building package 'robile_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_gazebo', 'symlink_install': False, 'test_result_base': None}
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_args' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_target' from command line to 'None'
+[1.029s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.030s] Level 5:colcon.colcon_core.verb:set package 'robile_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.030s] DEBUG:colcon.colcon_core.verb:Building package 'robile_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation', 'merge_install': False, 'path': '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation', 'symlink_install': False, 'test_result_base': None}
+[1.030s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.033s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_description' with build type 'ament_cmake'
+[1.033s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_description'
+[1.037s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.038s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.038s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.045s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_interfaces' with build type 'ament_cmake'
+[1.045s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_interfaces'
+[1.046s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.046s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.052s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/amr_localization' with build type 'ament_python'
+[1.053s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_localization', 'ament_prefix_path')
+[1.053s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/hook/ament_prefix_path.ps1'
+[1.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/hook/ament_prefix_path.dsv'
+[1.057s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/hook/ament_prefix_path.sh'
+[1.058s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.059s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.065s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/aws-robomaker-small-house-world' with build type 'ament_cmake'
+[1.065s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/aws-robomaker-small-house-world'
+[1.066s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.066s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.073s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter' with build type 'ament_python'
+[1.073s] Level 1:colcon.colcon_core.shell:create_environment_hook('mcl_particle_filter', 'ament_prefix_path')
+[1.074s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/hook/ament_prefix_path.ps1'
+[1.075s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/hook/ament_prefix_path.dsv'
+[1.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/hook/ament_prefix_path.sh'
+[1.077s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.078s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.084s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/my_explorer' with build type 'ament_python'
+[1.084s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_explorer', 'ament_prefix_path')
+[1.084s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/hook/ament_prefix_path.ps1'
+[1.086s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/hook/ament_prefix_path.dsv'
+[1.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/hook/ament_prefix_path.sh'
+[1.088s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.088s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.094s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/particle_localization' with build type 'ament_python'
+[1.095s] Level 1:colcon.colcon_core.shell:create_environment_hook('particle_localization', 'ament_prefix_path')
+[1.095s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/hook/ament_prefix_path.ps1'
+[1.097s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/hook/ament_prefix_path.dsv'
+[1.098s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/hook/ament_prefix_path.sh'
+[1.099s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.099s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.105s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/potential' with build type 'ament_python'
+[1.105s] Level 1:colcon.colcon_core.shell:create_environment_hook('potential', 'ament_prefix_path')
+[1.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/hook/ament_prefix_path.ps1'
+[1.107s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/hook/ament_prefix_path.dsv'
+[1.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/hook/ament_prefix_path.sh'
+[1.109s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.109s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description -- -j8 -l8
+[1.137s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_interfaces -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces
+[1.842s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/amr_localization'
+[1.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.863s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/aws-robomaker-small-house-world -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world
+[2.592s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter'
+[2.593s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.593s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.411s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/my_explorer'
+[3.412s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.413s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.253s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/particle_localization'
+[4.254s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.254s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.014s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/potential'
+[5.014s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.014s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.026s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description -- -j8 -l8
+[5.048s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description
+[5.049s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/aws-robomaker-small-house-world -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world
+[5.052s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world -- -j8 -l8
+[5.100s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_interfaces -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces
+[5.110s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces -- -j8 -l8
+[5.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_description)
+[5.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_description
+[5.245s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description' for CMake module files
+[5.252s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description' for CMake config files
+[5.265s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_description', 'cmake_prefix_path')
+[5.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/hook/cmake_prefix_path.ps1'
+[5.278s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/hook/cmake_prefix_path.dsv'
+[5.281s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/hook/cmake_prefix_path.sh'
+[5.298s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/bin'
+[5.304s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/lib/pkgconfig/robile_description.pc'
+[5.311s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/lib/python3.10/site-packages'
+[5.313s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/bin'
+[5.318s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.ps1'
+[5.338s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.dsv'
+[5.342s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.sh'
+[5.351s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.bash'
+[5.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.zsh'
+[5.371s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/colcon-core/packages/robile_description)
+[5.375s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_description)
+[5.381s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description' for CMake module files
+[5.383s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description' for CMake config files
+[5.388s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_description', 'cmake_prefix_path')
+[5.391s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/hook/cmake_prefix_path.ps1'
+[5.404s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/hook/cmake_prefix_path.dsv'
+[5.410s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/hook/cmake_prefix_path.sh'
+[5.422s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/bin'
+[5.424s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/lib/pkgconfig/robile_description.pc'
+[5.425s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/lib/python3.10/site-packages'
+[5.427s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/bin'
+[5.436s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.ps1'
+[5.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.dsv'
+[5.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.sh'
+[5.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.bash'
+[5.458s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/robile_description/package.zsh'
+[5.462s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description/share/colcon-core/packages/robile_description)
+[5.470s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_bringup' with build type 'ament_python'
+[5.474s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'ament_prefix_path')
+[5.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.ps1'
+[5.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.dsv'
+[5.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/hook/ament_prefix_path.sh'
+[5.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.637s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world -- -j8 -l8
+[5.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world
+[9.069s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_bringup'
+[9.070s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.071s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.114s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[9.139s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[9.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build
+[9.190s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build
+[9.224s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_house_world)
+[9.226s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world' for CMake module files
+[9.236s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/aws_robomaker_small_house_world
+[9.237s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world' for CMake config files
+[9.282s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_house_world', 'cmake_prefix_path')
+[9.283s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.ps1'
+[9.294s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.dsv'
+[9.295s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.sh'
+[9.310s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/bin'
+[9.311s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/lib/pkgconfig/aws_robomaker_small_house_world.pc'
+[9.312s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/lib/python3.10/site-packages'
+[9.313s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/bin'
+[9.322s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.ps1'
+[9.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.dsv'
+[9.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.sh'
+[9.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.bash'
+[9.355s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.zsh'
+[9.356s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/colcon-core/packages/aws_robomaker_small_house_world)
+[9.378s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(aws_robomaker_small_house_world)
+[9.379s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world' for CMake module files
+[9.389s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world' for CMake config files
+[9.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('aws_robomaker_small_house_world', 'cmake_prefix_path')
+[9.435s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.ps1'
+[9.437s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.dsv'
+[9.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/hook/cmake_prefix_path.sh'
+[9.452s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/bin'
+[9.453s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/lib/pkgconfig/aws_robomaker_small_house_world.pc'
+[9.456s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/lib/python3.10/site-packages'
+[9.460s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/bin'
+[9.464s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.ps1'
+[9.481s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.dsv'
+[9.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.sh'
+[9.495s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.bash'
+[9.498s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/aws_robomaker_small_house_world/package.zsh'
+[9.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world/share/colcon-core/packages/aws_robomaker_small_house_world)
+[9.521s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_control_simple' with build type 'ament_python'
+[9.539s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'ament_prefix_path')
+[9.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.ps1'
+[9.555s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.dsv'
+[9.567s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/hook/ament_prefix_path.sh'
+[9.573s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.574s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.628s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[9.656s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/build
+[12.184s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_control_simple'
+[12.185s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.185s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.198s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[12.212s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mcl_particle_filter build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/install.log --install-scripts $base/lib/mcl_particle_filter --single-version-externally-managed install_data
+[12.213s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[12.220s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[12.242s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build
+[12.244s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/build
+[12.654s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build
+[12.655s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/my_explorer': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_explorer build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/install.log --install-scripts $base/lib/my_explorer --single-version-externally-managed install_data --force
+[12.874s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/build
+[12.882s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/particle_localization': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_localization build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/install.log --install-scripts $base/lib/particle_localization --single-version-externally-managed install_data --force
+[13.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build
+[13.573s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/amr_localization': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_localization build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/install.log --install-scripts $base/lib/amr_localization --single-version-externally-managed install_data --force
+[14.055s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter' for CMake module files
+[14.066s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter' for CMake config files
+[14.072s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/mcl_particle_filter' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/mcl_particle_filter build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/mcl_particle_filter/install.log --install-scripts $base/lib/mcl_particle_filter --single-version-externally-managed install_data
+[14.089s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib'
+[14.095s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/bin'
+[14.101s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/pkgconfig/mcl_particle_filter.pc'
+[14.105s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/lib/python3.10/site-packages'
+[14.113s] Level 1:colcon.colcon_core.shell:create_environment_hook('mcl_particle_filter', 'pythonpath')
+[14.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/hook/pythonpath.ps1'
+[14.133s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/hook/pythonpath.dsv'
+[14.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/hook/pythonpath.sh'
+[14.165s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/bin'
+[14.176s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mcl_particle_filter)
+[14.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/package.ps1'
+[14.210s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/package.dsv'
+[14.228s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/package.sh'
+[14.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/package.bash'
+[14.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/mcl_particle_filter/package.zsh'
+[14.255s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/mcl_particle_filter/share/colcon-core/packages/mcl_particle_filter)
+[14.260s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_reach_goal' with build type 'ament_python'
+[14.261s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_reach_goal', 'ament_prefix_path')
+[14.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.ps1'
+[14.268s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.dsv'
+[14.269s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/share/robile_reach_goal/hook/ament_prefix_path.sh'
+[14.276s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.277s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.590s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_reach_goal'
+[15.591s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.592s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.611s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer' for CMake module files
+[15.613s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/my_explorer' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/my_explorer build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/my_explorer/install.log --install-scripts $base/lib/my_explorer --single-version-externally-managed install_data --force
+[15.614s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer' for CMake config files
+[15.616s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib'
+[15.617s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/bin'
+[15.617s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/pkgconfig/my_explorer.pc'
+[15.618s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/lib/python3.10/site-packages'
+[15.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_explorer', 'pythonpath')
+[15.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/hook/pythonpath.ps1'
+[15.621s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/hook/pythonpath.dsv'
+[15.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/hook/pythonpath.sh'
+[15.625s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/bin'
+[15.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_explorer)
+[15.627s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/package.ps1'
+[15.629s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/package.dsv'
+[15.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/package.sh'
+[15.634s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/package.bash'
+[15.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/my_explorer/package.zsh'
+[15.638s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/my_explorer/share/colcon-core/packages/my_explorer)
+[15.639s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization' for CMake module files
+[15.641s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization' for CMake config files
+[15.645s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/amr_localization' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/amr_localization build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/amr_localization/install.log --install-scripts $base/lib/amr_localization --single-version-externally-managed install_data --force
+[15.651s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib'
+[15.651s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/bin'
+[15.652s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/pkgconfig/amr_localization.pc'
+[15.652s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/lib/python3.10/site-packages'
+[15.653s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_localization', 'pythonpath')
+[15.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/hook/pythonpath.ps1'
+[15.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/hook/pythonpath.dsv'
+[15.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/hook/pythonpath.sh'
+[15.658s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/bin'
+[15.659s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_localization)
+[15.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/package.ps1'
+[15.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/package.dsv'
+[15.663s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/package.sh'
+[15.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/package.bash'
+[15.665s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/amr_localization/package.zsh'
+[15.666s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/amr_localization/share/colcon-core/packages/amr_localization)
+[15.667s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization' for CMake module files
+[15.670s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization' for CMake config files
+[15.671s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/particle_localization' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/particle_localization build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/particle_localization/install.log --install-scripts $base/lib/particle_localization --single-version-externally-managed install_data --force
+[15.672s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib'
+[15.673s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/bin'
+[15.673s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/pkgconfig/particle_localization.pc'
+[15.674s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/lib/python3.10/site-packages'
+[15.674s] Level 1:colcon.colcon_core.shell:create_environment_hook('particle_localization', 'pythonpath')
+[15.675s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/hook/pythonpath.ps1'
+[15.676s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/hook/pythonpath.dsv'
+[15.677s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/hook/pythonpath.sh'
+[15.679s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/bin'
+[15.679s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(particle_localization)
+[15.681s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/package.ps1'
+[15.684s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/package.dsv'
+[15.685s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/package.sh'
+[15.687s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/package.bash'
+[15.688s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/particle_localization/package.zsh'
+[15.689s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/particle_localization/share/colcon-core/packages/particle_localization)
+[15.691s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[15.699s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/wavefront' with build type 'ament_python'
+[15.699s] Level 1:colcon.colcon_core.shell:create_environment_hook('wavefront', 'ament_prefix_path')
+[15.700s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront/share/wavefront/hook/ament_prefix_path.ps1'
+[15.703s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront/share/wavefront/hook/ament_prefix_path.dsv'
+[15.704s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront/share/wavefront/hook/ament_prefix_path.sh'
+[15.716s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build
+[15.718s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces -- -j8 -l8
+[15.726s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.727s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.731s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces
+[15.750s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_gazebo' with build type 'ament_cmake'
+[15.750s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_gazebo'
+[15.751s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[15.751s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[15.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/build
+[15.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_bringup': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/install.log --install-scripts $base/lib/robile_bringup --single-version-externally-managed install_data --force
+[16.873s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/wavefront'
+[16.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[16.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[16.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo': AMENT_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo -- -j8 -l8
+[16.940s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_interfaces)
+[16.941s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces' for CMake module files
+[16.949s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces' for CMake config files
+[16.951s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'cmake_prefix_path')
+[16.960s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.ps1'
+[16.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build
+[16.963s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.dsv'
+[16.970s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/potential': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/potential build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/install.log --install-scripts $base/lib/potential --single-version-externally-managed install_data --force
+[16.971s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces
+[16.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.sh'
+[16.974s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib'
+[16.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'ld_library_path_lib')
+[16.975s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.ps1'
+[16.982s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.dsv'
+[16.983s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.sh'
+[16.985s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/bin'
+[16.985s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib/pkgconfig/robile_interfaces.pc'
+[16.986s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib/python3.10/site-packages'
+[16.987s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/bin'
+[16.990s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.ps1'
+[16.997s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.dsv'
+[17.000s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.sh'
+[17.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.bash'
+[17.007s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.zsh'
+[17.010s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/colcon-core/packages/robile_interfaces)
+[17.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_interfaces)
+[17.015s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces' for CMake module files
+[17.019s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces' for CMake config files
+[17.026s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'cmake_prefix_path')
+[17.028s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.ps1'
+[17.033s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.dsv'
+[17.035s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/cmake_prefix_path.sh'
+[17.037s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib'
+[17.037s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_interfaces', 'ld_library_path_lib')
+[17.038s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.ps1'
+[17.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.dsv'
+[17.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/hook/ld_library_path_lib.sh'
+[17.055s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/bin'
+[17.056s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib/pkgconfig/robile_interfaces.pc'
+[17.061s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib/python3.10/site-packages'
+[17.062s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/bin'
+[17.064s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.ps1'
+[17.068s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.dsv'
+[17.071s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.sh'
+[17.074s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.bash'
+[17.075s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/package.zsh'
+[17.077s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/colcon-core/packages/robile_interfaces)
+[17.080s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation'
+[17.081s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[17.082s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[17.125s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup' for CMake module files
+[17.126s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup' for CMake config files
+[17.128s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_bringup' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/robile_bringup build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_bringup/install.log --install-scripts $base/lib/robile_bringup --single-version-externally-managed install_data --force
+[17.132s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib'
+[17.133s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/bin'
+[17.133s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/pkgconfig/robile_bringup.pc'
+[17.134s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/lib/python3.10/site-packages'
+[17.135s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_bringup', 'pythonpath')
+[17.137s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/hook/pythonpath.ps1'
+[17.140s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/hook/pythonpath.dsv'
+[17.141s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/hook/pythonpath.sh'
+[17.144s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/bin'
+[17.144s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_bringup)
+[17.146s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/package.ps1'
+[17.148s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/package.dsv'
+[17.149s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/package.sh'
+[17.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/package.bash'
+[17.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/robile_bringup/package.zsh'
+[17.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_bringup/share/colcon-core/packages/robile_bringup)
+[17.196s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_navigation': AMENT_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces LD_LIBRARY_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation
+[17.202s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/opt/ros/humble /usr/bin/cmake --build /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo -- -j8 -l8
+[17.206s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo': AMENT_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo
+[17.214s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[17.227s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build
+[17.364s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_gazebo)
+[17.366s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo' for CMake module files
+[17.365s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo' returned '0': AMENT_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/opt/ros/humble /usr/bin/cmake --install /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_gazebo
+[17.368s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo' for CMake config files
+[17.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_gazebo', 'cmake_prefix_path')
+[17.371s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.ps1'
+[17.376s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.dsv'
+[17.383s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.sh'
+[17.385s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/bin'
+[17.385s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/lib/pkgconfig/robile_gazebo.pc'
+[17.386s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/lib/python3.10/site-packages'
+[17.391s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/bin'
+[17.392s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.ps1'
+[17.395s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.dsv'
+[17.398s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.sh'
+[17.404s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.bash'
+[17.411s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.zsh'
+[17.416s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/colcon-core/packages/robile_gazebo)
+[17.418s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_gazebo)
+[17.420s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo' for CMake module files
+[17.424s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo' for CMake config files
+[17.426s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_gazebo', 'cmake_prefix_path')
+[17.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.ps1'
+[17.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.dsv'
+[17.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/hook/cmake_prefix_path.sh'
+[17.432s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/bin'
+[17.432s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/lib/pkgconfig/robile_gazebo.pc'
+[17.433s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/lib/python3.10/site-packages'
+[17.434s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/bin'
+[17.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.ps1'
+[17.453s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.dsv'
+[17.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.sh'
+[17.468s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.bash'
+[17.473s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/robile_gazebo/package.zsh'
+[17.478s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo/share/colcon-core/packages/robile_gazebo)
+[17.682s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build
+[17.685s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_control_simple': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/install.log --install-scripts $base/lib/robile_control_simple --single-version-externally-managed install_data --force
+[18.163s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential' for CMake module files
+[18.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/potential' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/potential build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/potential/install.log --install-scripts $base/lib/potential --single-version-externally-managed install_data --force
+[18.167s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential' for CMake config files
+[18.168s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib'
+[18.169s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/bin'
+[18.169s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/pkgconfig/potential.pc'
+[18.170s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/lib/python3.10/site-packages'
+[18.170s] Level 1:colcon.colcon_core.shell:create_environment_hook('potential', 'pythonpath')
+[18.171s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/hook/pythonpath.ps1'
+[18.174s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/hook/pythonpath.dsv'
+[18.176s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/hook/pythonpath.sh'
+[18.178s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/bin'
+[18.179s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(potential)
+[18.182s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/package.ps1'
+[18.185s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/package.dsv'
+[18.187s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/package.sh'
+[18.190s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/package.bash'
+[18.195s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/potential/package.zsh'
+[18.197s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/potential/share/colcon-core/packages/potential)
+[18.326s] DEBUG:colcon.colcon_core.task.python.build:Available setuptools commands: install_headers, sdist, alias, init_catalog, update_catalog, bdist_wheel, bdist_rpm, upload, build, compile_catalog, install_lib, dist_info, install, install_egg_info, clean, build_scripts, register, develop, build_ext, bdist_egg, setopt, saveopts, bdist, symlink_data, egg_info, test, install_data, extract_messages, build_clib, check, easy_install, rotate, upload_docs, install_scripts, build_py, bdist_dumb
+[18.332s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/wavefront': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/wavefront/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/wavefront/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/wavefront/build
+[18.710s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple' for CMake module files
+[18.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_control_simple' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robile_control_simple build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_control_simple/install.log --install-scripts $base/lib/robile_control_simple --single-version-externally-managed install_data --force
+[18.713s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple' for CMake config files
+[18.715s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib'
+[18.715s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/bin'
+[18.715s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/pkgconfig/robile_control_simple.pc'
+[18.716s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/lib/python3.10/site-packages'
+[18.716s] Level 1:colcon.colcon_core.shell:create_environment_hook('robile_control_simple', 'pythonpath')
+[18.717s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.ps1'
+[18.718s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.dsv'
+[18.719s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/hook/pythonpath.sh'
+[18.721s] Level 1:colcon.colcon_core.environment:checking '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/bin'
+[18.721s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robile_control_simple)
+[18.722s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/package.ps1'
+[18.724s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/package.dsv'
+[18.725s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/package.sh'
+[18.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/package.bash'
+[18.726s] INFO:colcon.colcon_core.shell:Creating package script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/robile_control_simple/package.zsh'
+[18.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_control_simple/share/colcon-core/packages/robile_control_simple)
+[18.986s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal' returned '0': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build
+[18.989s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/Robile/robile_demos/robile_reach_goal': PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/robile_reach_goal build --build-base /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build install --record /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/install.log --install-scripts $base/lib/robile_reach_goal --single-version-externally-managed install_data --force
+[19.325s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_navigation' returned '1': AMENT_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces LD_LIBRARY_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation
+[19.831s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[19.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[19.832s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[19.832s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[19.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[19.846s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[19.847s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[19.878s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[19.878s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/local_setup.ps1'
+[19.882s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/_local_setup_util_ps1.py'
+[19.886s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/setup.ps1'
+[19.888s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/local_setup.sh'
+[19.890s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/_local_setup_util_sh.py'
+[19.891s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/setup.sh'
+[19.894s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/local_setup.bash'
+[19.895s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/setup.bash'
+[19.898s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/local_setup.zsh'
+[19.901s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/setup.zsh'

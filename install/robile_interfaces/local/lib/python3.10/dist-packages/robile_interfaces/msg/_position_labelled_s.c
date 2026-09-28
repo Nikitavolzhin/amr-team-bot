@@ -1,0 +1,1 @@
+/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces/rosidl_generator_py/robile_interfaces/msg/_position_labelled_s.c

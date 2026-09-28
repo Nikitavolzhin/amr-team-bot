@@ -1,0 +1,1 @@
+/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_interfaces/ament_cmake_environment_hooks/pythonpath.sh

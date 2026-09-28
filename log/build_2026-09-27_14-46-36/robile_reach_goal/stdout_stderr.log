@@ -1,0 +1,32 @@
+running develop
+Removing /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages/robile-reach-goal.egg-link (link to .)
+running egg_info
+writing ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/dependency_links.txt
+writing entry points to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/entry_points.txt
+writing requirements to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/requires.txt
+writing top-level names to ../../../../build/robile_reach_goal/robile_reach_goal.egg-info/top_level.txt
+reading manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/robile_reach_goal/robile_reach_goal.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build/lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build/lib/robile_reach_goal
+copying robile_reach_goal/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build/lib/robile_reach_goal
+copying robile_reach_goal/robile_reach_goal.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build/lib/robile_reach_goal
+running install
+running install_lib
+creating /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build/lib/robile_reach_goal/__init__.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal
+copying /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/build/lib/robile_reach_goal/robile_reach_goal.py -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal/robile_reach_goal.py to robile_reach_goal.cpython-310.pyc
+running install_data
+copying resource/robile_reach_goal -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/share/ament_index/resource_index/packages
+copying package.xml -> /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/share/robile_reach_goal
+running install_egg_info
+Copying ../../../../build/robile_reach_goal/robile_reach_goal.egg-info to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/python3.10/site-packages/robile_reach_goal-0.0.0-py3.10.egg-info
+running install_scripts
+Installing robile_reach_goal script to /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_reach_goal/lib/robile_reach_goal
+writing list of installed files to '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_reach_goal/install.log'

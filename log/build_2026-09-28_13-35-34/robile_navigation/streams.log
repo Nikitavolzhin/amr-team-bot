@@ -1,0 +1,46 @@
+[0.072s] Invoking command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_navigation': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation
+[0.114s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.505s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.527s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[0.615s] -- Found rosidl_generator_c: 3.1.9 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.625s] -- Found rosidl_adapter: 3.1.9 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.639s] -- Found rosidl_generator_cpp: 3.1.9 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.694s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.780s] -- Found rmw_implementation_cmake: 6.1.3 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.785s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.123s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.258s] -- Found rclpy: 3.3.21 (/opt/ros/humble/share/rclpy/cmake)
+[1.258s] -- Found nav_msgs: 4.9.2 (/opt/ros/humble/share/nav_msgs/cmake)
+[1.316s] -- Found robile_interfaces: 0.0.0 (/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces/share/robile_interfaces/cmake)
+[1.353s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.532s] Error parsing '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation/package.xml':
+[1.622s] Traceback (most recent call last):
+[1.622s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 150, in <module>
+[1.622s]     main()
+[1.623s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 53, in main
+[1.623s]     raise e
+[1.623s]   File "/opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py", line 49, in main
+[1.623s]     package = parse_package_string(
+[1.623s]   File "/usr/lib/python3/dist-packages/catkin_pkg/package.py", line 786, in parse_package_string
+[1.624s]     raise InvalidPackage('Error(s):%s' % (''.join(['\n- %s' % e for e in errors])), filename)
+[1.624s] catkin_pkg.package.InvalidPackage: Error(s) in package '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation/package.xml':
+[1.624s] Error(s):
+[1.624s] - The generic dependency on 'rclpy' is redundant with: build_depend, build_export_depend, exec_depend
+[1.624s] - The generic dependency on 'sensor_msgs' is redundant with: exec_depend
+[1.624s] - The generic dependency on 'geometry_msgs' is redundant with: exec_depend
+[1.656s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:95 (message):
+[1.656s]   execute_process(/usr/bin/python3
+[1.656s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/package_xml_2_cmake.py
+[1.656s]   /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation/package.xml
+[1.656s]   /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_navigation/ament_cmake_core/package.cmake)
+[1.656s]   returned error code 1
+[1.657s] Call Stack (most recent call first):
+[1.657s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[1.657s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.657s]   CMakeLists.txt:25 (ament_lint_auto_find_test_dependencies)
+[1.657s] 
+[1.657s] [0m
+[1.657s] -- Configuring incomplete, errors occurred!
+[1.658s] See also "/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_navigation/CMakeFiles/CMakeOutput.log".
+[1.670s] Invoked command in '/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/build/robile_navigation' returned '1': CMAKE_PREFIX_PATH=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_interfaces:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_gazebo:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_description:/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/aws_robomaker_small_house_world /usr/bin/cmake /home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/src/robile_navigation -DCMAKE_INSTALL_PREFIX=/home/ashraful/HBRS/AMR/AMR_PROJECT/amr-team-bot/install/robile_navigation

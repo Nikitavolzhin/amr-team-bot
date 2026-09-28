@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: robile-control-simple
+Version: 0.0.0
+Summary: Move robot by publishing to cmd_vel topic
+Home-page: UNKNOWN
+Maintainer: melody
+Maintainer-email: kishansawant96@gmail.com
+License: Apache License 2.0
+Platform: UNKNOWN
+
+UNKNOWN
+

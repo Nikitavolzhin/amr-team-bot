@@ -1,0 +1,9 @@
+setup.py
+robile_interfaces/__init__.py
+robile_interfaces.egg-info/PKG-INFO
+robile_interfaces.egg-info/SOURCES.txt
+robile_interfaces.egg-info/dependency_links.txt
+robile_interfaces.egg-info/top_level.txt
+robile_interfaces/msg/__init__.py
+robile_interfaces/msg/_position_labelled.py
+robile_interfaces/msg/_position_labelled_array.py

@@ -1,0 +1,6 @@
+[console_scripts]
+gg = amr_localization.gg:main
+ggwp = amr_localization.ggwp:main
+lo = amr_localization.lo:main
+particle_filter_node = amr_localization.particle_filter_node:main
+

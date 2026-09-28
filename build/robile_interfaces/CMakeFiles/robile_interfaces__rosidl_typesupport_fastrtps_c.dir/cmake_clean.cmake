@@ -1,0 +1,17 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled__type_support_c.cpp.o"
+  "CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled__type_support_c.cpp.o.d"
+  "CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled_array__type_support_c.cpp.o"
+  "CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled_array__type_support_c.cpp.o.d"
+  "librobile_interfaces__rosidl_typesupport_fastrtps_c.pdb"
+  "librobile_interfaces__rosidl_typesupport_fastrtps_c.so"
+  "rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled__type_support_c.cpp"
+  "rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled_array__rosidl_typesupport_fastrtps_c.h"
+  "rosidl_typesupport_fastrtps_c/robile_interfaces/msg/detail/position_labelled_array__type_support_c.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/robile_interfaces__rosidl_typesupport_fastrtps_c.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
